@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+#data folders
+/data/rawdata/*
+!/data/rawdata/.gitkeep
+
+/data/cleandata/*
+!/data/cleandata/.gitkeep
+
+
+
 # Distribution / packaging
 .Python
 build/
