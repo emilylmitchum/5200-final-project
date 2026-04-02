@@ -13,7 +13,8 @@ __pycache__/
 /data/cleandata/*
 !/data/cleandata/.gitkeep
 
-
+Clean_data/
+data/
 
 # Distribution / packaging
 .Python
