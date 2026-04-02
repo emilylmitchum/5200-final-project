@@ -6,15 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
-#data folders
+#data folder
 /data/rawdata/*
-!/data/rawdata/.gitkeep
 
 /data/cleandata/*
+HEAD
 !/data/cleandata/.gitkeep
 
 Clean_data/
 data/
+
+
+b96f483 (Kylie: NPORS cleaning)
 
 # Distribution / packaging
 .Python
