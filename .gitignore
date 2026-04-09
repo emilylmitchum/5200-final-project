@@ -6,10 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
-#data folder
-/data/rawdata/*
+# DATA FOLDERS
+## Dana's relative path to data files
+/data/*
 
+/data/rawdata/*
 /data/cleandata/*
+
 HEAD
 !/data/cleandata/.gitkeep
 

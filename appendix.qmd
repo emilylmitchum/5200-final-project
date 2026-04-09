@@ -1,0 +1,24 @@
+# Appendix
+Details of our methods and challenges for reproducibility and transparency.
+
+## Data Collection
+
+### NPORS
+Downloaded from Pew Research Center website (add more detail)
+
+Example: for 2025, downloaded at this link:
+* https://www.pewresearch.org/methods/dataset/2025-national-public-opinion-reference-survey-npors/
+
+
+### NORC
+Downloaded from Ropers (add more detail)
+
+Example: downloaded at Roper iPoll (describe what this source is, where the data came from)
+
+## Data Cleaning
+
+### NPORS
+Dropped X columns per year
+Transformed X columns per year
+
+Challenges of NPORS data cleaning: lack of uniformity across years in their variables or at least their variable names
