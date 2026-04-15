@@ -1,0 +1,21 @@
+---
+title: My First Closeread
+format: closeread-html
+---
+
+to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
+
+I think most of the introduction information will be in the scrollables
+
+:::{.cr-section}
+
+We all know that being sexist is bad @cr-features
+
+but some people didn't learn that one
+
+:::{#cr-features}
+
+![](charts/tweetstest.png)
+:::
+
+:::
