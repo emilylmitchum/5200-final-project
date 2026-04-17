@@ -15,13 +15,15 @@ I think most of the introduction information will be in the scrollables
 
 :::{.cr-section .overlay}
 
-We all know that being sexist is bad @cr-features
+Something cool about headlines @cr-features-1
 
-but some people didn't learn that one
+Yeah look at all these news outlets reporting on the elections
 
-:::{#cr-features}
+Ok so the image can only be so large
 
-![](charts/tweetstest.png)
+:::{#cr-features-1}
+
+![](charts/news_headlines.png)
 
 :::
 

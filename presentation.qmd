@@ -1,0 +1,14 @@
+---
+title: "Presentation"
+author: "Dana Kim, Kylie King, Emily Mitchum"
+format: revealjs
+---
+
+## Title Slide
+
+- Turn off alarm
+- Get out of bed
+
+## Introduction
+
+- Get in bed
