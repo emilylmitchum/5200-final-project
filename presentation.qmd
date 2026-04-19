@@ -118,9 +118,11 @@ What if women did not vote in the 2024 election?
 
 ## State-Level Analysis
 * To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research (NORC).
+* Note: Delaware was excluded from the folllowing charts because its estimated value is a clear outlier and may reflect instability from limited survey responses rather than a comparable state-level pattern.
 
 ## State-Level Analysis: Rurality
 <iframe src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html" width="1200" height="900"></iframe>
+
 
 ## State-Level Analysis: Party Identity
 <iframe src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html" width="1200" height="900"></iframe>
@@ -137,3 +139,5 @@ What if women did not vote in the 2024 election?
 ::: {.column width="20%"}
 ![](charts/vertical_mass_wv_tableau.png)
 :::
+
+## Conclusion
