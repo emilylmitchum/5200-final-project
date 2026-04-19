@@ -6,12 +6,86 @@ format: revealjs
 
 ## Introduction
 
-## November 4, 2025
+## November 4, 2025 : The Stakes
+::: columns
+
+::: {.column width="50%"}
+<div style="display: flex; flex-direction: column; justify-content: center; height: 50vh; font-size: 24px;">
+* First major elections since the 2024 Presidential election
+* Virginia, New Jersey, New York City
+* Widely televised and commentated across all news networks
+* Virginia gained a Democratic trifecta, New Jersey held a Democratic trifecta
+* President backed Cuomo against Mamdani: Mamdani victory
+</div>
+:::
+
+::: {.column width="50%"}
+<div style="display: flex; justify-content: flex-end; align-items: center; height: 50vh;">
+  <img src="charts/trifecta.png" style="max-width: 100%; height: auto;">
+</div>
+:::
+
+:::
+
+## November 4, 2025 : The Voters
+::: columns
+
+::: {.column width="50%"}
+![](charts/voterstats_youth.png)
+:::
+
+::: {.column width="50%"}
+<div style="display: flex; justify-content: flex-end; align-items: center; height: 50vh;">
+  <img src="charts/voterstats-women.png" style="max-width: 100%; height: auto;">
+</div>
+:::
+
+:::
 
 ## Social Media Backlash
 
+## The Gender Split in Politics
+
+::: columns
+
+::: {.column width="35%"}
+<div style="display: flex; flex-direction: column; justify-content: center; height: 50vh; font-size: 18px;">
+* The greatest proportion of women identify as Democrat
+* The greatest proportion of men identify as Republican
+* Women and men in the United States have different political interests and identities, particularly in the last 5 years
+</div>
+:::
+
+::: {.column width="65%"}
+<div style="display: flex; justify-content: flex-end; align-items: center; height: 50vh;">
+  <img src="charts/allage_line.png" style="max-width: 100%; height: auto;">
+</div>
+:::
+
+:::
+
+
+
 ## Split in Young Voters
 
+::: columns
+
+::: {.column width="35%"}
+<div style="display: flex; flex-direction: column; justify-content: center; height: 50vh; font-size: 18px;">
+* This split is more dramatic in young voters, but less stable
+* Since the 2024 election, a higher proportion of young women identify as Democrat, and a higher proportion of young men identify as Republican
+* How is this split represented in political issues?
+</div>
+:::
+
+::: {.column width="65%"}
+<div style="display: flex; justify-content: flex-end; align-items: center; height: 50vh;">
+  <img src="charts/1829_line.png" style="max-width: 100%; height: auto;">
+</div>
+
+:::
+
+:::
 
 ## Issues 
 
