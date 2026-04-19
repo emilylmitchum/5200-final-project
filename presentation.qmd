@@ -4,12 +4,21 @@ author: "Dana Kim, Kylie King, Emily Mitchum"
 format: revealjs
 ---
 
-## Title Slide
-
-- Turn off alarm
-- Get out of bed
-
 ## Introduction
+
+## November 4, 2025
+
+## Social Media Backlash
+
+## Split in Young Voters
+
+
+## Issues 
+
+
+## The Hypothetical
+
+What if women did not vote in the 2024 election?
 
 <iframe src="charts/map_dash.html" width="1200" height="600"></iframe>
 
