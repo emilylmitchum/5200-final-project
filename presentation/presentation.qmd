@@ -116,6 +116,22 @@ What if women did not vote in the 2024 election?
   - Leads to an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
   - Research suggests that it may disproportionately impact women living in **rural areas, conservative women, low-income women, older women, and women with less education.**
 
+## Overall Statistics
+
+::: {.columns}
+
+::: {.column width="50%"}
+<iframe src="charts/metric_estimated_without_passport.html" width="100%" height="260" style="border:none;"></iframe>
+<iframe src="charts/metric_estimated_women_at_risk.html" width="100%" height="260" style="border:none;"></iframe>
+:::
+
+::: {.column width="50%"}
+<iframe src="charts/metric_lowincome_without_passport.html" width="100%" height="260" style="border:none;"></iframe>
+<iframe src="charts/metric_education_passport.html" width="100%" height="260" style="border:none;"></iframe>
+:::
+
+:::
+
 ## State-Level Analysis
 * To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research (NORC).
 * Note: Delaware was excluded from the folllowing charts because its estimated value is a clear outlier and may reflect instability from limited survey responses rather than a comparable state-level pattern.
