@@ -200,6 +200,7 @@ What if women did not vote in the 2024 election?
 ![](charts/vertical_mass_wv_tableau.png)
 :::
 
+:::: 
 
 ## Conclusion
 * Social media backlash after recent elections targeted **young women** who voted for **Democratic** candidates
