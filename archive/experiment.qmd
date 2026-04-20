@@ -1,0 +1,33 @@
+---
+title: My First Closeread
+format:
+  closeread-html:
+    theme: default
+---
+
+to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
+
+The scrolling elements are going to appear on the side when you open up to the full browser, but look like they're over top in the preview pane. The final product will be a scrolling left panel, and a zooming/changing right panel of images
+
+click PREVIEW to see!
+
+I think most of the introduction information will be in the scrollables
+
+:::{.cr-section .overlay}
+
+Something cool about headlines @cr-features-1
+
+Yeah look at all these news outlets reporting on the elections
+
+Ok so the image can only be so large
+
+:::{#cr-features-1}
+
+![](charts/news_headlines.png)
+
+:::
+
+:::
+
+And if we want to have the interactive htmls....
+<iframe src="charts/map_dash.html" width="1200" height="600"></iframe>
