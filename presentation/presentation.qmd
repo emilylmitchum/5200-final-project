@@ -1,5 +1,5 @@
 ---
-title: "Political Gender Split"
+title: "Saving Women's Right to Vote"
 author: "Dana Kim, Kylie King, Emily Mitchum"
 format: revealjs
 ---
@@ -76,6 +76,16 @@ format: revealjs
 <img src="charts/sherrill-1.png" style="max-width: 100%; height: auto;">
 
 <img src="charts/sherrill-2.png" style="max-width: 100%; height: auto;">
+
+
+## Social Media Backlash - Young Women
+
+<img src="charts/repeal-19th-1.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/repeal-19th-2.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/repeal-19th-3.png" style="max-width: 100%; height: auto;">
+
 
 # Political Gender Split
 
