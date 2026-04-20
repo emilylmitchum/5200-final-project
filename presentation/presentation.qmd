@@ -1,10 +1,24 @@
 ---
-title: "Presentation"
+title: "Political Gender Split"
 author: "Dana Kim, Kylie King, Emily Mitchum"
 format: revealjs
 ---
 
-## Introduction
+## Overview
+
+* Introduction
+* Political Gender Split
+* Real World Implications
+
+# Introduction
+
+## Shift in Political Climate
+
+* Political pendulum swing - cyclical power shift between opposing parties
+* Thermostatic model of public opinion - public opinion shifts in response to political action being "too left" or "too right"
+* Presidential elections are notable examples of this
+* We can see signs of the pendulum continuing to swing even in recent local elections
+
 
 ## November 4, 2025 : The Stakes
 ::: columns
@@ -42,9 +56,30 @@ format: revealjs
 
 :::
 
-## Social Media Backlash
+## Social Media Backlash - Mamdani
+  
+<img src="charts/mamdani-1.png" style="max-width: 100%; height: auto;">
 
-## The Gender Split in Politics
+<img src="charts/mamdani-2.png" style="max-width: 100%; height: auto;">
+
+
+
+## Social Media Backlash - Spanberger
+
+<img src="charts/spanberger-2.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+<img src="charts/spanberger-1.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+
+## Social Media Backlash - Sherrill
+
+<img src="charts/sherrill-1.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/sherrill-2.png" style="max-width: 100%; height: auto;">
+
+# Political Gender Split
+
+## Gender Split Over Time
 
 ::: columns
 
@@ -87,7 +122,11 @@ format: revealjs
 
 :::
 
-## Issues 
+## Gender Split on Political Issues
+
+* test
+
+
 
 
 ## The Hypothetical
@@ -95,6 +134,11 @@ format: revealjs
 What if women did not vote in the 2024 election?
 
 <iframe src="charts/map_dash.html" width="1200" height="600"></iframe>
+
+
+
+
+# Real World Implications
 
 ## Real World Implications
 :::: {.columns}
