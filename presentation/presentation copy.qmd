@@ -4,6 +4,11 @@ author: "Dana Kim, Kylie King, Emily Mitchum"
 format: revealjs
 ---
 
+## Overview
+
+* Introduction
+* Political Gender Split
+* Real World Implications
 
 # Introduction
 
@@ -51,21 +56,35 @@ format: revealjs
 
 :::
 
+## Social Media Backlash - Mamdani
+  
+<img src="charts/mamdani-1.png" style="max-width: 100%; height: auto;">
 
-## Social Media Backlash
+<img src="charts/mamdani-2.png" style="max-width: 100%; height: auto;">
 
-Blaming young women voters
+
+
+## Social Media Backlash - Spanberger
+
+<img src="charts/spanberger-2.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+<img src="charts/spanberger-1.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+
+## Social Media Backlash - Sherrill
+
+<img src="charts/sherrill-1.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/sherrill-2.png" style="max-width: 100%; height: auto;">
+
+
+## Social Media Backlash - Young Women
 
 <img src="charts/repeal-19th-1.png" style="max-width: 100%; height: auto;">
 
 <img src="charts/repeal-19th-2.png" style="max-width: 100%; height: auto;">
 
-
-## Social Media Backlash
-
-<img src="charts/repeal-19th-3.png" style="width: 50%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
-
-"Women as individuals shouldn't be able to vote"
+<img src="charts/repeal-19th-3.png" style="max-width: 100%; height: auto;">
 
 
 # Political Gender Split
@@ -177,7 +196,7 @@ What if women did not vote in the 2024 election?
   <img src="charts/mass_wv_income.png" width="49%">
 </p>
 
-## Massachussetts vs. West Virginia
+## Massachusetts vs. West Virginia
 <p>
   <img src="charts/mass_wv_rural.png" width="49%">
   <img src="charts/mass_wv_republican.png" width="49%">
