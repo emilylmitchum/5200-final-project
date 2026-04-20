@@ -124,7 +124,7 @@ format: revealjs
 
 ## Gender Split on Political Issues
 
-* test
+<iframe src="charts/issues_dashboard.html" width="1200" height="600"></iframe>
 
 
 
