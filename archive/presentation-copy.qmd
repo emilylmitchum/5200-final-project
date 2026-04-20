@@ -32,6 +32,29 @@ format: revealjs
 :::: 
 
 
+## Social Media Backlash - Mamdani
+  
+<img src="charts/mamdani-1.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/mamdani-2.png" style="max-width: 100%; height: auto;">
+
+
+
+## Social Media Backlash - Spanberger
+
+<img src="charts/spanberger-2.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+<img src="charts/spanberger-1.png" style="height: 40%; width: auto; display: block; margin: 0 auto;">
+
+
+## Social Media Backlash - Sherrill
+
+<img src="charts/sherrill-1.png" style="max-width: 100%; height: auto;">
+
+<img src="charts/sherrill-2.png" style="max-width: 100%; height: auto;">
+
+
+
 ## SAVE Act Overview
   - Requires in-person proof of citizenship for voter registration or registration updates through a passport or birth certificate. 
   - Leads to an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
