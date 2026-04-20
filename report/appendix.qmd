@@ -15,10 +15,23 @@ Downloaded from Ropers (add more detail)
 
 Example: downloaded at Roper iPoll (describe what this source is, where the data came from)
 
+
+### SAVE Act
+CAP (a PDF file)
+Pew Research Center
+
+
+
 ## Data Cleaning
+
+### NORC
+Insert Kylie's cleaning steps
 
 ### NPORS
 Dropped X columns per year
 Transformed X columns per year
 
 Challenges of NPORS data cleaning: lack of uniformity across years in their variables or at least their variable names
+
+### SAVE Act 
+Directly copied from CAP estimates
