@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "axis": {"labelFontSize": 12, "titleFontSize": 14}, "legend": {"labelFontSize": 14, "titleFontSize": 16}, "title": {"fontSize": 18}}, "hconcat": [{"mark": {"type": "arc"}, "encoding": {"color": {"field": "Response", "legend": {"columns": 1, "orient": "right", "title": "Response Options"}, "scale": {"range": ["#ef476f", "#ffd166", "#f78c6b", "#06d6a0", "#118ab2"]}, "type": "nominal"}, "opacity": {"condition": {"param": "param_cef969e13652010d", "value": 1.0}, "value": 0.3}, "theta": {"aggregate": "sum", "field": "Total_Count", "stack": true, "type": "quantitative"}, "tooltip": [{"field": "Response", "type": "nominal"}, {"aggregate": "sum", "field": "Total_Count", "title": "Total Count", "type": "quantitative"}]}, "height": 300, "name": "view_f650dac4e66a0569_0", "title": "Distribution of Responses to Issue", "transform": [{"filter": {"param": "param_9ca00539aacfc5dd"}}], "width": 300}, {"mark": {"type": "bar"}, "encoding": {"color": {"field": "GENDER", "legend": null, "scale": {"range": ["#669AE2", "#BC6888"]}, "type": "nominal"}, "tooltip": [{"field": "GENDER", "type": "nominal"}, {"aggregate": "sum", "field": "Total_Count", "title": "Total Count", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "GENDER", "sort": "-y", "title": "Gender", "type": "nominal"}, "y": {"aggregate": "sum", "field": "Total_Count", "title": "Number of People", "type": "quantitative"}}, "height": 300, "title": "Gender of Selected Response to Issue", "transform": [{"filter": {"param": "param_9ca00539aacfc5dd"}}, {"filter": {"param": "param_cef969e13652010d"}}], "width": 300}], "center": true, "data": {"name": "data-895503da291c763b66c08c94f5e6f3fe"}, "params": [{"name": "param_9ca00539aacfc5dd", "select": {"type": "point", "fields": ["Readable_Issue"]}, "bind": {"input": "select", "options": ["Economic conditions today", "Future economic conditions", "Safety from crime", "Impact of more Americans owning guns", "Responsibility to protect people from themselves"], "name": "Select Issue: "}, "value": [{"Readable_Issue": "Economic conditions today"}], "views": ["view_f650dac4e66a0569_0"]}, {"name": "param_cef969e13652010d", "select": {"type": "point", "fields": ["Response"]}, "views": ["view_f650dac4e66a0569_0"]}], "resolve": {"scale": {"color": "independent"}}, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-895503da291c763b66c08c94f5e6f3fe": [{"Issue": "CRIMESAFE", "Response": "Extremely safe", "GENDER": "A man", "Total_Count": 226, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Extremely safe", "GENDER": "A woman", "Total_Count": 199, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Not at all safe", "GENDER": "A man", "Total_Count": 40, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Not at all safe", "GENDER": "A woman", "Total_Count": 56, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Not too safe", "GENDER": "A man", "Total_Count": 130, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Not too safe", "GENDER": "A woman", "Total_Count": 230, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Somewhat safe", "GENDER": "A man", "Total_Count": 804, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Somewhat safe", "GENDER": "A woman", "Total_Count": 1233, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Very safe", "GENDER": "A man", "Total_Count": 992, "Readable_Issue": "Safety from crime"}, {"Issue": "CRIMESAFE", "Response": "Very safe", "GENDER": "A woman", "Total_Count": 1028, "Readable_Issue": "Safety from crime"}, {"Issue": "ECON1BMOD", "Response": "About the same", "GENDER": "A man", "Total_Count": 674, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1BMOD", "Response": "About the same", "GENDER": "A woman", "Total_Count": 853, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1BMOD", "Response": "Better", "GENDER": "A man", "Total_Count": 773, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1BMOD", "Response": "Better", "GENDER": "A woman", "Total_Count": 829, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1BMOD", "Response": "Worse", "GENDER": "A man", "Total_Count": 745, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1BMOD", "Response": "Worse", "GENDER": "A woman", "Total_Count": 1067, "Readable_Issue": "Future economic conditions"}, {"Issue": "ECON1MOD", "Response": "Excellent", "GENDER": "A man", "Total_Count": 116, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Excellent", "GENDER": "A woman", "Total_Count": 71, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Good", "GENDER": "A man", "Total_Count": 931, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Good", "GENDER": "A woman", "Total_Count": 934, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Only fair", "GENDER": "A man", "Total_Count": 854, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Only fair", "GENDER": "A woman", "Total_Count": 1214, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Poor", "GENDER": "A man", "Total_Count": 288, "Readable_Issue": "Economic conditions today"}, {"Issue": "ECON1MOD", "Response": "Poor", "GENDER": "A woman", "Total_Count": 528, "Readable_Issue": "Economic conditions today"}, {"Issue": "GOVPROTCT", "Response": "Not government", "GENDER": "A man", "Total_Count": 780, "Readable_Issue": "Responsibility to protect people from themselves"}, {"Issue": "GOVPROTCT", "Response": "Not government", "GENDER": "A woman", "Total_Count": 638, "Readable_Issue": "Responsibility to protect people from themselves"}, {"Issue": "GOVPROTCT", "Response": "Government", "GENDER": "A man", "Total_Count": 1385, "Readable_Issue": "Responsibility to protect people from themselves"}, {"Issue": "GOVPROTCT", "Response": "Government", "GENDER": "A woman", "Total_Count": 2072, "Readable_Issue": "Responsibility to protect people from themselves"}, {"Issue": "MOREGUNIMPACT", "Response": "Less crime", "GENDER": "A man", "Total_Count": 761, "Readable_Issue": "Impact of more Americans owning guns"}, {"Issue": "MOREGUNIMPACT", "Response": "Less crime", "GENDER": "A woman", "Total_Count": 565, "Readable_Issue": "Impact of more Americans owning guns"}, {"Issue": "MOREGUNIMPACT", "Response": "More crime", "GENDER": "A man", "Total_Count": 687, "Readable_Issue": "Impact of more Americans owning guns"}, {"Issue": "MOREGUNIMPACT", "Response": "More crime", "GENDER": "A woman", "Total_Count": 1247, "Readable_Issue": "Impact of more Americans owning guns"}, {"Issue": "MOREGUNIMPACT", "Response": "No difference", "GENDER": "A man", "Total_Count": 735, "Readable_Issue": "Impact of more Americans owning guns"}, {"Issue": "MOREGUNIMPACT", "Response": "No difference", "GENDER": "A woman", "Total_Count": 925, "Readable_Issue": "Impact of more Americans owning guns"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

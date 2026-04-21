@@ -1,0 +1,105 @@
+---
+title: Saving Women's Right to Vote
+format:
+  closeread-html:
+    theme: default
+---
+
+to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
+
+The scrolling elements are going to appear on the side when you open up to the full browser, but look like they're over top in the preview pane. The final product will be a scrolling left panel, and a zooming/changing right panel of images
+
+click PREVIEW to see!
+
+I think most of the introduction information will be in the scrollables
+
+When we want to edit the formatting: https://www.gastonsanchez.com/learn-closeread/modules/09-style-formatting.html
+
+:::{.cr-section .overlay}
+
+@cr-features-news_headlines
+
+## Recent Local Elections 
+
+November 4, 2025 was the first major election night since the Presidential election in 2024. For the Democratic Party, this was also the first opportunity to gain control of state and local offices after the Republican win for presidency. 
+
+That day, Virginia and New Jersey held state-level elections for their executive offices and some legislative offices, and New York City held its mayoral election. All three races were widely anticipated (Bradner, 2025b) and closely followed by various news outlets, including NBC News, Fox News, and CNN.
+
+@cr-features-trifecta
+
+The two state elections generated so much interest because a ‘Democratic trifecta’ was on the line. A political trifecta occurs when a single political party controls all three major elected components of a state’s government, which usually makes it easier for that party to pass policies. 
+
+@cr-features-va_trifecta
+
+In Virginia’s case, the governor before the elections was Republican, and the two legislative bodies were controlled by the Democratic party. If a Democrat was elected for governor, Virginia would achieve a Democratic trifecta. 
+
+@cr-features-nj_trifecta
+
+New Jersey held a Democratic trifecta before election night, but the races for governor and legislative offices were so close that they had a possibility of losing Democratic control in one of the branches.
+
+@cr-features-mamdani
+
+The New York City race was widely followed for many reasons, including the Democratic Party’s reluctance to back their candidate, Zohran Mamdani, and the support from the President of the United States to the Independent candidate, Andrew Cuomo. 
+
+All three elections resulted in dramatic Democratic party wins, with Virginia and New Jersey achieving Democratic trifectas, and Zohran Mamdani winning in New York City. 
+
+In the aftermath of this busy election night, election analysts reviewed exit polling data and learned two important things:
+
+@cr-features-young_votes
+
+The majority of young people voted for winning Democratic candidates in all 3 elections. (McHardy, 2025) 
+
+@cr-features-female_votes
+
+The majority of women voted for winning Democratic candidates in all 3 elections, especially young women. (Dittmar, 2025)
+
+## Social Media Backlash
+Dana
+
+:::{#cr-features-news_headlines}
+
+![](charts/news_headlines.png)
+ 
+:::
+
+:::{#cr-features-trifecta}
+
+![](charts/trifecta.png)
+ 
+:::
+
+:::{#cr-features-va_trifecta}
+
+![](charts/va_trifecta.png)
+ 
+:::
+
+:::{#cr-features-nj_trifecta}
+
+![](charts/nj_trifecta.png)
+ 
+:::
+
+:::{#cr-features-mamdani}
+
+![](charts/mamdani_news.png)
+ 
+:::
+
+:::{#cr-features-young_votes}
+
+![](charts/voterstats_youth.png)
+ 
+:::
+
+:::{#cr-features-female_votes}
+
+![](charts/voterstats-women.png)
+ 
+:::
+
+
+:::
+
+And if we want to have the interactive htmls....
+<iframe src="charts/map_dash.html" width="1200" height="600"></iframe>
