@@ -17,6 +17,8 @@ When we want to edit the formatting: https://www.gastonsanchez.com/learn-closere
 
 :::{.cr-section .overlay}
 
+@cr-features-intro_text
+
 ## Introduction
 Dana
 
@@ -83,6 +85,10 @@ However, from 2024-2025, there is a visible disparity where the proportion of **
 The NPORS survey has not been issued long enough to calculate trends over time for these survey responses. However, they do provide a visual representation of the differences in political identity between women and men. How do these differences in political identity appear in the issues that women and men care about?
 
 Dana: talk about issues, then it'll move into the issues chart
+
+:::{#cr-features-intro_text}
+![](charts/political_climate_text.png)
+:::
 
 :::{#cr-features-election_text}
 ![](charts/elections_text_2.png)
