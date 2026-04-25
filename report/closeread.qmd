@@ -3,6 +3,11 @@ title: Saving Women's Right to Vote
 format:
   closeread-html:
     theme: default
+    css: styles.css
+#     cr-style:
+#       narrative-background-color-sidebar: white
+#       narrative-text-color-sidebar: "#000000"
+#       section-background-color: white
 ---
 
 to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
@@ -164,64 +169,124 @@ To see what the 2024 election would have looked like if women did not vote, togg
 When considering the total survey responses, a roughly even number of states are colored blue (majority Harris) and red (majority Trump). However, considering only male survey responses shows most of the states turn red. By contrast, considering only female survey responses, most states turn blue. This shows that, in most states, there is a divide between how men and women voted, and while Donald Trump won the 2024 election regardless, the margin would have been much larger if women did not vote.
 
 :::{.cr-section .overlay}
-
 @cr-features-save_act_text
 
-Suppression of women’s right to vote is no longer a radical provocation, but a true threat, demonstrated by the **Safeguard American Voter Eligibility (SAVE) Act.**
 
-The SAVE Act would require voters to provide proof of citizenship in person upon voter registration through a valid passport or birth certificate. This requirement would create an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
+:::{.cr-step .compact-step}
+## The Safeguard American Voter Eligibility Act (SAVE) Act
+
+Suppression of women’s right to vote is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
+:::
+
+:::{.cr-step .compact-step}
+
+The SAVE Act would require voters to provide proof of citizenship in person upon voter registration through a valid **passport** or **birth certificate.**
+
+REAL IDs would ***not*** suffice as citizenship proof for the vast majority of Americans, since they demonstrate legal residence and are available to non-citizens.
+
+:::
+
+:::{.cr-step .compact-step}
+
+This requirement would create an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
 
 A Pew research study (Lin 2023) found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
 
-REAL IDs would not suffice as citizenship proof for the vast majority of Americans, since they demonstrate legal residence and are available to non-citizens.
+
+:::
+
+:::{.cr-step .compact-step}
+
+
+### Additional Barrier to Vote for Rural Individuals
+The SAVE Act's in-person requirement would pose a greater burden for women living in rural areas, farther from voting locations, requiring some to travel hours or even fly to prove citizenship.
+:::
+
+@cr-features-passport_metric
+
+The legislation would also increase the burden of voting for as many as **146 million** U.S. citizens without a passport. 
+
+
+@cr-features-education-passport
+
+Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.**
+
+@cr-features-income-passport
+
+Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
+
+@cr-features-rural_scatter
+
+:::{.cr-step .compact-step}
+
+### Analysis of State-Level Impacts
+@cr-features-rural_scatter
+
+To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research Center.
+
+Visual analysis reveals a clear state-level pattern of rurality and birth-certificate mismatches.
+
+The first visual shows that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of women living in rural areas. 
+:::
+
+@cr-features-republican_scatter
+
+:::{.cr-step .compact-step}
+@cr-features-republican_scatter
+
+State-level comparisons also show that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of Republican women.
+:::
 
 :::{#cr-features-save_act_text}
 ![](charts/save_act_text.png)
 :::
 
-The SAVE Act's in-person requirement would pose a greater burden for individuals living in rural areas, farther from voting locations, requiring some to travel hours or even fly to prove citizenship. 
-
-@cr-features-passport_metric
-
 :::{#cr-features-passport_metric}
 <iframe 
   src="charts/metric_estimated_without_passport.html"
-  width="100%"
-  height="650px"
-  style="border: none;">
+  style="width: 100%; height: 650px; border: none;">
 </iframe>
+
 :::
-
-The legislation would also increase the burden of voting for as many as 146 million U.S. citizens without a passport. Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among highly-educated individuals, individuals with higher incomes, and younger individuals. 
-
-Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
-
-To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research Center.
-
-Visual analysis reveals a clear state-level pattern of rurality and birth-certificate mismatches. The first visual shows that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of women living in rural areas. 
-
-@cr-features-rural_scatter
 
 :::{#cr-features-rural_scatter}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html"
-  width="100%"
-  height="650px"
-  style="border: none;">
+  style="width: 100%; height: 650px; border: none;">
 </iframe>
+
 :::
-
-State-level comparisons also show that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of Republican women.
-
-@cr-features-republican_scatter
 
 :::{#cr-features-republican_scatter}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html"
-  width="100%"
-  height="650px"
-  style="border: none;">
+  style="width: 100%; height: 650px; border: none;">
 </iframe>
+
+:::
+
+:::{#cr-features-women-at-risk}
+<iframe 
+  src="charts/metric_estimated_women_at_risk.html"
+  style="width: 100%; height: 650px; border: none;">
+</iframe>
+
+:::
+
+:::{#cr-features-education-passport}
+<iframe 
+  src="charts/metric_education_passport.html"
+  style="width: 100%; height: 650px; border: none;">
+</iframe>
+
+:::
+
+:::{#cr-features-income-passport}
+<iframe 
+  src="charts/metric_lowincome_without_passport.html"
+  style="width: 100%; height: 650px; border: none;">
+</iframe>
+
 :::
 
 :::
