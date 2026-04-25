@@ -4,11 +4,6 @@ format:
   closeread-html:
     theme: default
     css: styles.css
-jupyter: python3
-#     cr-style:
-#       narrative-background-color-sidebar: white
-#       narrative-text-color-sidebar: "#000000"
-#       section-background-color: white
 ---
 
 
@@ -245,7 +240,6 @@ The SAVE Act's in-person requirement would pose a greater burden for women livin
 
 The legislation would also increase the burden of voting for as many as **146 million** U.S. citizens without a passport. 
 
-
 @cr-features-education-passport
 
 Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.**
@@ -276,6 +270,14 @@ The first visual shows that higher estimated shares of women with birth-certific
 State-level comparisons also show that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of Republican women.
 :::
 
+@cr-features-mass_wv_comparison
+
+## Massachusetts vs. West Virginia Comparison
+To analyze the characteristics of women likely to be impacted by the SAVE Act in detail, we compare the profiles of two states with contrasting shares of women at risk of having birth-certificate name mismatches: Massachusetts and West Virginia.
+
+@cr-features-ma_wv_barcharts
+Comparing the two states, West Virginia has a much larger estimated share of women at risk and a notably different state profile across rurality, party identity, income, and educational attainment.
+
 :::{#cr-features-save_act_text}
 ![](charts/save_act_text.png)
 :::
@@ -291,15 +293,14 @@ State-level comparisons also show that higher estimated shares of women with bir
 :::{#cr-features-rural_scatter}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html"
-  style="width: 100%; height: 650px; border: none;">
-</iframe>
-
+  style="width: 100%; height: 1000px; border: none; max-width:900px;">
+</iframe>-
 :::
 
 :::{#cr-features-republican_scatter}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html"
-  style="width: 100%; height: 650px; border: none;">
+  style="width: 100%; height: 650px; border: none; max-width:900px;">
 </iframe>
 
 :::
@@ -307,7 +308,7 @@ State-level comparisons also show that higher estimated shares of women with bir
 :::{#cr-features-women-at-risk}
 <iframe 
   src="charts/metric_estimated_women_at_risk.html"
-  style="width: 100%; height: 650px; border: none;">
+  style="width: 100%; height: 650px; border: none; max-width:900px;">
 </iframe>
 
 :::
@@ -315,7 +316,7 @@ State-level comparisons also show that higher estimated shares of women with bir
 :::{#cr-features-education-passport}
 <iframe 
   src="charts/metric_education_passport.html"
-  style="width: 100%; height: 650px; border: none;">
+  style="width: 100%; height: 650px; border: none; max-width:900px;">
 </iframe>
 
 :::
@@ -323,9 +324,21 @@ State-level comparisons also show that higher estimated shares of women with bir
 :::{#cr-features-income-passport}
 <iframe 
   src="charts/metric_lowincome_without_passport.html"
-  style="width: 100%; height: 650px; border: none;">
+  style="width: 100%; height: 650px; border: none; max-width:900px;">
 </iframe>
 
+:::
+
+:::{#cr-features-mass_wv_comparison}
+<iframe 
+  src="charts/Massachusetts_vs_West_Virginia.html"
+  style="width: 100%; height: 650px; border: none; max-width:900px;">
+</iframe>
+
+:::
+
+:::{#cr-features-ma_wv_barcharts}
+<img src="charts/ma_wv_comparison_clean.png" style="width:100%; max-width:900px;">
 :::
 
 :::
