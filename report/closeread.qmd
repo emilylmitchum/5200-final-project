@@ -4,6 +4,7 @@ format:
   closeread-html:
     theme: default
     css: styles.css
+bibliography: references.bib
 ---
 
 
@@ -71,20 +72,20 @@ In response to these local elections, there was a lot of backlash on social medi
 
 @cr-repeal-19th-2
 
-A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just two days after the November 4th elections. As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.
+A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just two days after the November 4th elections. As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.[@partridge2025]
 
 @cr-repeal-19th-4
 
-In the video included in this X post, Dale Partridge calls to restore the household vote in favor of the 19th amendment, whereby women would “share their thoughts with their fathers or husbands and the men in their lives would make the final decisions.” 
+In the video included in this X post, Dale Partridge calls to restore the household vote in favor of the 19th amendment, whereby women would “share their thoughts with their fathers or husbands and the men in their lives would make the final decisions.”[@partridge2025]
 
 He justifies this change by implying that social progressivism has been the result of the female vote:
-“Nearly every legalized moral atrocity in the last 100 years was made possible by the female vote. Abortion and homosexuality would likely still be illegal if not for the female vote… even last night the new Muslim NYC mayor Mamdani specifically won because of the female vote.”
+“Nearly every legalized moral atrocity in the last 100 years was made possible by the female vote. Abortion and homosexuality would likely still be illegal if not for the female vote… even last night the new Muslim NYC mayor Mamdani specifically won because of the female vote.”[@partridge2025]
 
 @cr-repeal-19th-3
 
-A few months earlier in August 2025, Pete Hegseth, who at the time was the U.S. Secretary of Defense, reposted a separate but ideologically similar video on X. This video, a segment from CNN, featured several Christian pastors who advocated for the repeal of the 19th amendment in favor of a household vote. 
+A few months earlier in August 2025, Pete Hegseth, who at the time was the U.S. Secretary of Defense, reposted a separate but ideologically similar video on X. This video, a segment from CNN, featured several Christian pastors who advocated for the repeal of the 19th amendment in favor of a household vote.[@hegseth2025]
 
-This is just a snippet of the many ideas espoused by Christian pastor Doug Wilson and his community who are strongly advocating for a more patriarchal society. Importantly, as noted by the CNN segment, one of Doug Wilson’s contacts is Pete Hegseth himself, “his highest level connection to the [Trump] administration”.
+This is just a snippet of the many ideas espoused by Christian pastor Doug Wilson and his community who are strongly advocating for a more patriarchal society. Importantly, as noted by the CNN segment, one of Doug Wilson’s contacts is Pete Hegseth himself, “his highest level connection to the [Trump] administration”.[@hegseth2025]
 
 
 @cr-features-gender_split
@@ -365,7 +366,7 @@ Comparing the two states, West Virginia has a much larger estimated share of wom
 
 :::
 
-
+# References
 
 to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
 
