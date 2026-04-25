@@ -4,22 +4,12 @@ format:
   closeread-html:
     theme: default
     css: styles.css
+jupyter: python3
 #     cr-style:
 #       narrative-background-color-sidebar: white
 #       narrative-text-color-sidebar: "#000000"
 #       section-background-color: white
 ---
-
-to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
-
-The scrolling elements are going to appear on the side when you open up to the full browser, but look like they're over top in the preview pane. The final product will be a scrolling left panel, and a zooming/changing right panel of images
-
-click PREVIEW to see!
-
-I think most of the introduction information will be in the scrollables
-
-When we want to edit the formatting: https://www.gastonsanchez.com/learn-closeread/modules/09-style-formatting.html
-
 
 
 :::{.cr-section}
@@ -118,45 +108,6 @@ However, from 2024-2025, there is a visible disparity where the proportion of **
 The NPORS survey has not been issued long enough to calculate trends over time for these survey responses. However, they do provide a visual representation of the differences in political identity between women and men. How do these differences in political identity appear in the issues that women and men care about?
 
 
-## Political Gender Split by Issue
-
-Let’s zoom in on the survey responses from the most recent year, in 2025. 
-
-@cr-issues_dashboard
-
-When examining what issues were important to respondents, there was a clear gender split in which issues mattered to who. To explore this, we will click on one of the issues and then select a slice of the pie that pops up.
-
-Let’s take a look at how men vs. women responded to the question about how safe they felt from crime. Most of the people who said they felt extremely safe were men, and most of the people who said they did not feel safe at all were women. 
-
-What about people’s rating of the current economic state? In a similar fashion, we can see that mostly men said they thought economic conditions were excellent, while mostly women said they thought they were poor. This 
-
-While these are not statistical associations, we can see that there is a clear split in how men vs. women respond to some of these issues. Go ahead and explore more of the available issues to investigate whether this pattern holds for other areas.
-
-## The Hypothetical
-
-@cr-features-gender_split_2
-
-Prominent figures like the Secretary of War declared that women should not have the right to vote. If that happened, women's interests in all of these issues would be underrepresented, and the United States would have a very different political landscape. For example, what would the 2024 Presidential Election have looked like if women did not vote?
-
-
-This map shows the AP VoteCast exit poll responses to the 2024 election. This survey is hosted by the National Opinion Research Center, at the University of Chicago. The state coloration shows the majority opinion from survey respondents, and does not represent the final electoral college or popular vote of the states. Click a state on the left to see an age-group breakdown of the responses in that state on the right. 
-
-To see what the 2024 election would have looked like if women did not vote, toggle the map from "Total" to "Male," and check out the "Female" tab to see how women voted in each state.
-
-@cr-map_dash
-
-When considering the total survey responses, a roughly even number of states are colored blue (majority Harris) and red (majority Trump). However, considering only male survey responses shows most of the states turn red. By contrast, considering only female survey responses, most states turn blue. This shows that, in most states, there is a divide between how men and women voted, and while Donald Trump won the 2024 election regardless, the margin would have been much larger if women did not vote.
-
-
-
-:::{#cr-issues_dashboard}
-<iframe src="charts/issues_dashboard.html" width="100%" height="600px"></iframe>
-:::
-
-:::{#cr-map_dash}
-<iframe src="charts/map_dash.html" style="width: 100%; height: 600px; border: none;"></iframe>
-:::
-
 :::{#cr-features-intro_text}
 ![](charts/political_climate_text.png)
 :::
@@ -210,6 +161,45 @@ When considering the total survey responses, a roughly even number of states are
 :::
 
 :::
+
+
+## Political Gender Split by Issue
+
+Let’s zoom in on the survey responses from the most recent year, in 2025. 
+
+<iframe src="charts/issues_dashboard.html" style="width: 100%; height: 650px; border: none;"></iframe>
+
+When examining what issues were important to respondents, there was a clear gender split in which issues mattered to who. To explore this, we will click on one of the issues and then select a slice of the pie that pops up.
+
+Let’s take a look at how men vs. women responded to the question about how safe they felt from crime. Most of the people who said they felt extremely safe were men, and most of the people who said they did not feel safe at all were women. 
+
+What about people’s rating of the current economic state? In a similar fashion, we can see that mostly men said they thought economic conditions were excellent, while mostly women said they thought they were poor. This 
+
+While these are not statistical associations, we can see that there is a clear split in how men vs. women respond to some of these issues. Go ahead and explore more of the available issues to investigate whether this pattern holds for other areas.
+
+
+:::{.cr-section}
+
+## The Hypothetical
+
+@cr-features-gender_split_2
+
+Prominent figures like the Secretary of War declared that women should not have the right to vote. If that happened, women's interests in all of these issues would be underrepresented, and the United States would have a very different political landscape. For example, what would the 2024 Presidential Election have looked like if women did not vote?
+
+:::{#cr-features-gender_split_2}
+![](charts/gender_split_text.png)
+:::
+
+:::
+
+This map shows the AP VoteCast exit poll responses to the 2024 election. This survey is hosted by the National Opinion Research Center, at the University of Chicago. The state coloration shows the majority opinion from survey respondents, and does not represent the final electoral college or popular vote of the states. Click a state on the left to see an age-group breakdown of the responses in that state on the right. 
+
+To see what the 2024 election would have looked like if women did not vote, toggle the map from "Total" to "Male," and check out the "Female" tab to see how women voted in each state.
+
+<iframe src="charts/map_dash.html" style="width: 100%; height: 600px; border: none;"></iframe>
+
+When considering the total survey responses, a roughly even number of states are colored blue (majority Harris) and red (majority Trump). However, considering only male survey responses shows most of the states turn red. By contrast, considering only female survey responses, most states turn blue. This shows that, in most states, there is a divide between how men and women voted, and while Donald Trump won the 2024 election regardless, the margin would have been much larger if women did not vote.
+
 
 
 
@@ -339,3 +329,16 @@ State-level comparisons also show that higher estimated shares of women with bir
 :::
 
 :::
+
+
+
+to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
+
+The scrolling elements are going to appear on the side when you open up to the full browser, but look like they're over top in the preview pane. The final product will be a scrolling left panel, and a zooming/changing right panel of images
+
+click PREVIEW to see!
+
+I think most of the introduction information will be in the scrollables
+
+When we want to edit the formatting: https://www.gastonsanchez.com/learn-closeread/modules/09-style-formatting.html
+
