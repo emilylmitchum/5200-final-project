@@ -4,6 +4,14 @@ format:
   closeread-html:
     theme: default
     css: styles.css
+    cr-style:
+      section-background-color: "#f7f6f5"
+      narrative-background-color-overlay: "#525252"
+      narrative-overlay-min-width: "400px"
+      narrative-overlay-max-width: "500px"
+      narrative-outer-margin: "#f7f6f5"
+      narrative-font-family: 'Arial, sans-serif'
+      narrative-font-size: 2em #2em is larger, 3 is very large, 1 is normal font size
 bibliography: references.bib
 ---
 
