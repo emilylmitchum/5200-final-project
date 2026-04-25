@@ -173,31 +173,55 @@ The SAVE Act would require voters to provide proof of citizenship in person upon
 
 A Pew research study (Lin 2023) found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
 
-This burden would be greater for women living in rural areas living farther from voting locations, as the SAVE Act requires individuals to appear in person to register or simply update one’s registration information. 
-
-The legislation would also increase the burden of voting for as many as 146 million U.S. citizens without a passport. Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among highly-educated individuals, individuals with higher-incomes, and younger individuals. 
-
-
-Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
+REAL IDs would not suffice as citizenship proof for the vast majority of Americans, since they demonstrate legal residence and are available to non-citizens.
 
 :::{#cr-features-save_act_text}
 ![](charts/save_act_text.png)
 :::
 
+The SAVE Act's in-person requirement would pose a greater burden for individuals living in rural areas, farther from voting locations, requiring some to travel hours or even fly to prove citizenship. 
+
+@cr-features-passport_metric
+
+:::{#cr-features-passport_metric}
+<iframe 
+  src="charts/metric_estimated_without_passport.html"
+  width="100%"
+  height="650px"
+  style="border: none;">
+</iframe>
 :::
 
-To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research (NORC).
+The legislation would also increase the burden of voting for as many as 146 million U.S. citizens without a passport. Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among highly-educated individuals, individuals with higher incomes, and younger individuals. 
+
+Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
+
+To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research Center.
 
 Visual analysis reveals a clear state-level pattern of rurality and birth-certificate mismatches. The first visual shows that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of women living in rural areas. 
 
-:::{#cr-features-save_act_text}
+@cr-features-rural_scatter
+
+:::{#cr-features-rural_scatter}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html"
   width="100%"
   height="650px"
   style="border: none;">
 </iframe>
+:::
 
+State-level comparisons also show that higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of Republican women.
+
+@cr-features-republican_scatter
+
+:::{#cr-features-republican_scatter}
+<iframe 
+  src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html"
+  width="100%"
+  height="650px"
+  style="border: none;">
+</iframe>
 :::
 
 :::
