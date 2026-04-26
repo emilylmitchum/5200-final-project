@@ -15,6 +15,12 @@ Downloaded from Ropers (add more detail)
 
 Example: downloaded at Roper iPoll (describe what this source is, where the data came from)
 
+The 2024 AP VoteCast survey, from NORC, University of Chicago, was formatted as a CSV with string values for survey responses. To better join with other data, the P_STATE variable was separated into a state name and state abbreviation variable. For example, 'Washington (WA)' became 'Washington' and 'WA'.
+
+For voting-related analysis, responses from 'nonvoters' were removed. For age-related analysis, 'refused 'responses were removed.
+
+Some of the response entries were formatted with descriptive text and numeric encodings. For example, respondents were asked who they voted for in the 2024 election, and recorded responses included '(8639) Donald Trump' and '(64984) Kamala Harris'. These types of responses were cleaned to their descriptive text, such as 'Donald Trump' or 'Kamala Harris.'
+
 
 ### SAVE Act
 CAP (a PDF file)
