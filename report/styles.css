@@ -18,3 +18,57 @@
 .compact-step p:last-child {
   margin-bottom: 0 !important;
 }
+
+/* Set Quarto document background color same as closeread background */
+body {
+  background-color: #f7f6f5; 
+}
+
+#title-block-header {
+  height: 100vh;             /* Forces the block to take up the full screen height */
+  display: flex;             /* Turns on flexbox layout */
+  flex-direction: column;    /* Stacks title and authors vertically */
+  justify-content: center;   /* Centers them vertically */
+  align-items: center;       /* Centers them horizontally */
+  text-align: center;
+  margin-top: 0;             /* Removes any awkward default spacing */
+}
+
+/* Override Quarto's default left-aligned grid for the author block */
+.quarto-title-meta {
+  display: flex !important;
+  flex-direction: row;       /* Puts all 3 names side-by-side */
+  justify-content: center;   /* Forces them to the center of the screen */
+  flex-wrap: wrap;           /* Allows them to stack neatly on small screens */
+  gap: 40px;                 /* Adds nice spacing between your names */
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Center the text inside the author blocks */
+.quarto-title-meta-heading, 
+.quarto-title-meta-contents {
+  text-align: center !important;
+}
+
+/* Globally center all images inside closeread sections */
+.cr-section img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Change the font and size of the Main Title */
+h1.title {
+  font-family: "Arial", sans-serif !important;
+  font-size: 4em !important;        /* 4em makes it roughly 4 times standard text size */
+  font-weight: bold;
+  margin-bottom: 0.5em;             /* Adds a little breathing room below the title */
+}
+
+/* Change the font and size of the Author Names */
+.quarto-title-meta-contents p {
+  font-family: "Arial", sans-serif !important;
+  font-size: 1.5em !important;      /* Makes the authors larger, but smaller than the title */
+  color: #333333;                   /* Optional: Makes the author text slightly softer than pure black */
+}
