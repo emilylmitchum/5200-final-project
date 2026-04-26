@@ -262,10 +262,14 @@ When considering the total survey responses, a roughly even number of states are
 So far, we've discussed the hypothetical impacts of suppressing women's right to vote. While a complete repeal of the 19th amendment is unlikely, there are real legislative efforts to suppress women and other groups from exercising their right to vote.
 
 :::{.cr-step .compact-step}
+
 # The Safeguard American Voter Eligibility Act (SAVE) Act
 
 The absence of women's perspectives in politics is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
+
 :::
+
+@cr-features-save_act_rally
 
 :::{.cr-step .compact-step}
 The SAVE Act would require voters to provide proof of citizenship in person upon voter registration through a valid **passport** or **birth certificate.**
@@ -305,6 +309,12 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 :::{#cr-features-save_act_text}
 ![](charts/save_act_text.png)
 :::
+
+:::{#cr-features-save_act_rally}
+![](charts/save_act_rally_1.jpg)
+:::
+
+
 :::
 
 ## Analysis of State-Level Impacts
