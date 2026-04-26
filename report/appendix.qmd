@@ -28,6 +28,15 @@ Pew Research Center
 Insert Kylie's cleaning steps
 
 ### NPORS
+The 2025 NPORS dataset was formatted as a CSV with numeric values that correspond with survey responses. For example, 1 = Yes, 2 = No. A 2025 codebook is available on the NPORS website, which was joined to the CSV to link string responses to the numeric codes. 
+
+For 2020-2024, the NPORS datasets were available as SAV files with similar numeric encoding, and there were no available codebooks. The NPORS website has documentation for questions and answers, so codebooks were manually constructed for these years based on that documentation. Those manual codebooks were joined to the SAV files to link string responses to the numeric codes. 
+
+Each year contained several incomplete or irrelevant columns for this research which were dropped. These were mostly the mode of the response, the language of the response at the beginning and end of the survey, the start and end date of the response, and post-survey questions that many respondents did not return to complete. Other incomplete columns were removed from each year on a case by case basis. 
+
+All missing values after that point were filled with the corresponding "blank" or "refused" response from that years survey. These responses were "Refused/Web blank" (2025), "Refused/ Web blank" (2024), and "Refused" (2020-2023).
+
+
 Dropped X columns per year
 Transformed X columns per year
 
