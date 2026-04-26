@@ -1,15 +1,21 @@
 ---
 title: Saving Women's Right to Vote
+author: 
+  - "Dana Kim"
+  - "Kylie King"
+  - "Emily Mitchum"
 format:
   closeread-html:
     theme: default
     css: styles.css
+    mainfont: Arial        
+    fontsize: 1em
     cr-style:
       section-background-color: "#f7f6f5"
-      narrative-background-color-overlay: "#525252"
-      narrative-overlay-min-width: "400px"
-      narrative-overlay-max-width: "500px"
-      narrative-outer-margin: "#f7f6f5"
+      narrative-background-color-sidebar: "#f7f6f5"
+      narrative-sidebar-min-width: "400px"
+      narrative-sidebar-max-width: "500px"
+      narrative-outer-margin: "2em"
       narrative-font-family: 'Arial, sans-serif'
       narrative-font-size: 2em #2em is larger, 3 is very large, 1 is normal font size
 bibliography: references.bib
@@ -18,26 +24,33 @@ bibliography: references.bib
 
 :::{.cr-section}
 
-# Introduction
-
-## Shifting Political Climate
+Have you ever heard of the “swinging pendulum” in politics?
 
 @cr-features-intro_text
 
-Have you ever heard of the “swinging pendulum” in politics?
+It refers to the cyclical power shift between opposing political ideologies. It’s particularly common in two-party political systems (like the one we have in the U.S.).
 
-If you haven’t, it’s just a term that refers to the cyclical power shift between opposing political ideologies. It’s particularly common in two-party political systems (like the one we have in the U.S.).
+This is more than just an anecdotal observation. In 1995, political scientist Christopher Wliezein found something he called the thermostatic model of public opinion. 
 
-This is more than just an anecdotal observation. In 1995, political scientist Christopher Wliezein found something he called the thermostatic model of public opinion. Through rigorous research, he found that the public acts as a thermostat, adjusting its political demands in response to government action. When policies become too liberal, public opinion moves to the right; if they become too conservative, the public moves left. For example, if the government starts spending “too much” on defense or social programs, the public begins to call for less spending in those areas. Through this mechanism, the public provides necessary feedback for democratic accountability. 
+@cr-two_party
 
-It’s no secret that the U.S. has experienced some of this swinging pendulum in the past few years. Even if we just take a broad look at our Presidential election results (from Obama to Trump to Biden and back to Trump), we can see this pendulum swinging. In response to the most recent Presidential election, we have seen a continuation of this swinging pendulum e in some recent local elections. 
+Wliezein found that the public acts as a thermostat, adjusting its political demands in response to government action. When policies become too liberal, public opinion moves to the right; if they become too conservative, the public moves left. 
 
+Through this mechanism, the public provides necessary feedback for democratic accountability. 
+
+@cr-white_house
+
+It’s no secret that the U.S. has experienced the swinging pendulum. Even if we just take a broad look at our Presidential election results in the past decade, we can see this pendulum swinging. 
+
+In response to the most recent Presidential election, we have seen a continuation of this swinging pendulum in some recent local elections. 
 
 @cr-features-election_text
 
+:::{.cr-step .compact-step}
 ## Recent Local Elections
-
 November 4, 2025 was the first major election night since the Presidential election in 2024. For the Democratic Party, this was also the first opportunity to gain control of state and local offices after the Republican win for presidency. 
+
+:::
 
 @cr-features-news_headlines
 
@@ -74,19 +87,24 @@ The majority of **women** voted for winning Democratic candidates in all 3 elect
 @cr-features-social_media
 
 
+:::{.cr-step .compact-step}
 ## Social Media Backlash
 
 In response to these local elections, there was a lot of backlash on social media. Of particular note was the backlash that young women voters seemed to face, given that many of them voted for these Democratic candidates who eventually won these races. 
+:::
 
 @cr-repeal-19th-2
 
-A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just two days after the November 4th elections. As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.[@partridge2025]
+A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just one day after the November 4th elections. 
+
+As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.[@partridge2025]
 
 @cr-repeal-19th-4
 
 In the video included in this X post, Dale Partridge calls to restore the household vote in favor of the 19th amendment, whereby women would “share their thoughts with their fathers or husbands and the men in their lives would make the final decisions.”[@partridge2025]
 
-He justifies this change by implying that social progressivism has been the result of the female vote:
+He justifies this change by implying that social progressivism has been the result of the female vote.
+
 “Nearly every legalized moral atrocity in the last 100 years was made possible by the female vote. Abortion and homosexuality would likely still be illegal if not for the female vote… even last night the new Muslim NYC mayor Mamdani specifically won because of the female vote.”[@partridge2025]
 
 @cr-repeal-19th-3
@@ -98,9 +116,11 @@ This is just a snippet of the many ideas espoused by Christian pastor Doug Wilso
 
 @cr-features-gender_split
 
+:::{.cr-step .compact-step}
 ## Political Gender Split Over Time
 
 If women were so influential in this past election, and prominent men called to rescind women's right to vote, how do women and men in the United States identify politically? The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. (cite) From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
+:::
 
 @cr-features-age_lines
 
@@ -178,11 +198,19 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 :::
 
 :::{#cr-repeal-19th-3}
-![](charts/repeal-19th-3.png){fig-align="center" width="60%"}
+![](charts/repeal-19th-3.png){width="70%"}
 :::
 
 :::{#cr-repeal-19th-4}
-![](charts/repeal-19th-4.png){fig-align="center" width="60%"}
+![](charts/repeal-19th-4.png){width="60%"}
+:::
+
+:::{#cr-two_party}
+![](charts/two_party.jpg){width="60%"}
+:::
+
+:::{#cr-white_house}
+![](charts/white_house.jpg){width="80%"}
 :::
 
 :::
@@ -206,11 +234,12 @@ While these are not statistical associations, we can see that there is a clear s
 
 :::{.cr-section}
 
-## The Hypothetical
-
 @cr-features-gender_split_2
 
+:::{.cr-step .compact-step}
+## The Hypothetical
 Prominent figures like the Secretary of War declared that women should not have the right to vote. If that happened, women's interests in all of these issues would be underrepresented, and the United States would have a very different political landscape. For example, what would the 2024 Presidential Election have looked like if women did not vote?
+:::
 
 :::{#cr-features-gender_split_2}
 ![](charts/gender_split_text.png)
@@ -341,8 +370,6 @@ Comparing the two states, West Virginia has a much larger estimated share of wom
 </iframe>
 :::
  -->
-
-# References
 
 to run this file, install quarto wizard extension, then follow ctrl+shift+p to browse extensions for closeread
 
