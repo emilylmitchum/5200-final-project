@@ -281,6 +281,8 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 :::
 
 :::
+![](charts/infographic.png)
+:::
 
 ## Analysis of State-Level Impacts
 
@@ -316,7 +318,7 @@ To analyze the characteristics of women likely to be impacted by the SAVE Act in
 
 Comparing the two states, West Virginia has a much larger estimated share of women at risk and a notably different state profile across rurality, party identity, income, and educational attainment.
 
-<img src="charts/ma_wv_comparison_clean.png" style="width:100%; max-width:900px;">
+<img src="charts/ma_wv_comparison_clean.png" style="width: 100%; height: 650px; border: none;";">
 
 <!-- 
 :::{#cr-features-passport_metric}
