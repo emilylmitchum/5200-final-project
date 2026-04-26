@@ -259,12 +259,12 @@ When considering the total survey responses, a roughly even number of states are
 
 @cr-features-save_act_text
 
-# Real World Implications
+So far, we've discussed the hypothetical impacts of suppressing women's right to vote. While a complete repeal of the 19th amendment is unlikely, there are real legislative efforts to suppress women and other groups from exercising their right to vote.
 
 :::{.cr-step .compact-step}
-## The Safeguard American Voter Eligibility Act (SAVE) Act
+# The Safeguard American Voter Eligibility Act (SAVE) Act
 
-Suppression of women’s right to vote is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
+The absence of women's perspectives in politics is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
 :::
 
 :::{.cr-step .compact-step}
@@ -282,25 +282,21 @@ A Pew research study (Lin 2023) found that women in opposite-sex marriages are f
 
 
 :::{.cr-step .compact-step}
-### Additional Barrier to Vote for Rural Individuals
+## Additional Barrier to Vote for Rural Individuals
 
 The SAVE Act's in-person requirement would pose a greater burden for women living in rural areas, farther from voting locations, requiring some to travel hours or even fly to prove citizenship.
+
+It would effectively end online and mail-in registration, which are more commonly used by rural voters.
 :::
 
 :::{.cr-step .compact-step}
-@cr-features-passport_metric
 
 The legislation would also increase the burden of voting for as many as **146 million** U.S. citizens without a passport. 
-:::
-
-:::{.cr-step .compact-step}
-@cr-features-education-passport
 
 Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.**
 :::
 
 :::{.cr-step .compact-step}
-@cr-features-income-passport
 
 Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
 :::
@@ -316,15 +312,11 @@ To explore which women would be most impacted by the SAVE Act, we aligned state 
 
 The full state-level scatterplots below show relationships between estimated birth-certificate name mismatch risk, rurality, and party identification.
 
-### Rurality and Estimated Birth-Certificate Name Mismatch Risk
-
 ::: {.full-width-chart}
 <iframe 
   src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html">
 </iframe>
 :::
-
-### Party Identification and Estimated Birth-Certificate Name Mismatch Risk
 
 ::: {.full-width-chart}
 <iframe 
@@ -333,7 +325,7 @@ The full state-level scatterplots below show relationships between estimated bir
 </iframe>
 :::
 
-### Massachusetts vs. West Virginia Comparison
+## Massachusetts vs. West Virginia Comparison
 
 To analyze the characteristics of women likely to be impacted by the SAVE Act in detail, we compare the profiles of two states with contrasting shares of women at risk of having birth-certificate name mismatches: Massachusetts and West Virginia.
 
@@ -341,15 +333,23 @@ To analyze the characteristics of women likely to be impacted by the SAVE Act in
 <iframe 
   src="charts/Massachusetts_vs_West_Virginia.html"
   style="width: 100%; max-width:900px;">
-</iframe>
+</iframe> 
 :::
 
 Comparing the two states, West Virginia has a much larger estimated share of women at risk and a notably different state profile across rurality, party identity, income, and educational attainment.
 
 ![](charts/ma_wv_comparison_clean.png)
 
-## Conclusion
+:::{.cr-section}
 
+@cr-features-infographic
+
+# Conclusion
+
+
+:::{#cr-features-infographic}
 ![](charts/infographic.png)
+:::
 
+:::
 
