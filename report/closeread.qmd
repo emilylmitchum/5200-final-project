@@ -309,7 +309,7 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 
 ## Analysis of State-Level Impacts
 
-To explore which women would be most impacted by the SAVE Act, we aligned state estimates of female citizens whose names may not match their birth certificates with state survey results from the National Opinion Research Center.
+To explore which women would be most impacted by the SAVE Act, we aligned the Center for American Progress's estimates of female citizens whose names may not match their birth certificates with state survey results from the AP VoteCast 2024 General Election survey [@apnorc2025votecast] and female population data from the U.S. Census Bureau [@census2024sexbyage].
 
 The following state-level scatterplots show relationships between estimated birth-certificate name mismatch risk, rurality, and party identification.
 
@@ -330,11 +330,11 @@ This is particularly concerning, since, as we've already discussed, the SAVE Act
 </iframe>
 :::
 
-While the visual pattern is less pronounced, we also observe an association between Republican party identity and birth-certificate mismatches. Higher estimated shares of women who identify as Republican coincide with higher shares of women who are estimated to have birth-certificate name mismatches.
-
-These scatterplots do not show strong correlations and should be interpreted with caution, as they are based on estimated data. However, they do show that areas with high estimated shares of women at risk of voter suppression are also some of the most rural and conservative states.
+While the visual pattern is less pronounced, we also observe an association between Republican party identity and birth-certificate mismatches. At the state level, estimated shares of women who identify as Republican coincide with higher shares of women who are estimated to have birth-certificate name mismatches.
 
 The bill's potential impact on Republican women is important to highlight, as it was orginally introduced by a Republican senator, and has been championed by the Trump Administration.
+
+These scatterplots do not show strong correlations and should be interpreted with caution, as they are based on estimated data. However, they do show that areas with high estimated shares of women at risk of voter suppression are also some of the most rural and conservative states.
 
 ## Massachusetts vs. West Virginia Comparison
 
@@ -354,18 +354,29 @@ These two states were chosen for comparison because they have very different est
 
 Massachusetts and West Virginia also have notably different state profiles across rurality, party identity, income, and educational attainment. West Virginia has a much higher share of women who identify as Republican, who live in rural areas, who have lower incomes, and who have lower educational attainment. These characteristics are all associated with a higher risk of voter suppression from the SAVE Act.
 
-
 :::{#cr-features-ma_wv_comparison}
 ![](charts/ma_wv_comparison_clean.png)
 :::
 
 ::: 
+
 :::{.cr-section}
 
 @cr-features-infographic
 
 # Conclusion
 
+The social media backlash experienced by young female voters and calls to repeal the 19th Amendment provide a small window into the ideal world of far-right extremist men, where women have no political say. 
+
+The SAVE Act and similar, state-level voter registration laws show a more realistic view of women’s voter suppression, where fewer women are able to vote, and some may choose not to due to prohibitive barriers. 
+
+If you were required to fly to update your voter registration, would you choose to?
+
+If your legal name didn’t match your birth certificate, would you be able to provide a physical marriage certificate?
+
+If you needed to buy or renew a passport to register to vote, would you be able to?
+
+If enough individuals decided to stay home, instead of booking the flight, finding the marriage certificate, or getting the passport, what would our country look like?
 
 
 :::{#cr-features-infographic}
