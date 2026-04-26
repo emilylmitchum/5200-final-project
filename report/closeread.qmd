@@ -54,7 +54,7 @@ November 4, 2025 was the first major election night since the Presidential elect
 
 @cr-features-news_headlines
 
-That day, Virginia and New Jersey held state-level elections for their executive offices and some legislative offices, and New York City held its mayoral election. All three races were widely anticipated (Bradner, 2025b) and closely followed by various news outlets, including NBC News, Fox News, and CNN.
+That day, Virginia and New Jersey held state-level elections for their executive offices and some legislative offices, and New York City held its mayoral election. All three races were widely anticipated [@Bradner_2025b] and closely followed by various news outlets, including NBC News, Fox News, and CNN.
 
 @cr-features-trifecta
 
@@ -72,17 +72,17 @@ New Jersey held a Democratic trifecta before election night, but the races for g
 
 The New York City race was widely followed for many reasons, including the Democratic Party’s reluctance to back their candidate, Zohran Mamdani, and the support from the President of the United States to the Independent candidate, Andrew Cuomo. 
 
-@cr-features-election_text
+@cr-features-election_results
 
 All three elections resulted in dramatic Democratic party wins, with Virginia and New Jersey achieving Democratic trifectas, and Zohran Mamdani winning in New York City. In the aftermath of this busy election night, election analysts reviewed exit polling data and learned two important things:
 
 @cr-features-young_votes
 
-The majority of **young people** voted for winning Democratic candidates in all 3 elections. (McHardy, 2025) 
+The majority of **young people** voted for winning Democratic candidates in all 3 elections. [@McHardy_2025]
 
 @cr-features-female_votes
 
-The majority of **women** voted for winning Democratic candidates in all 3 elections, especially **young women.** (Dittmar, 2025)
+The majority of **women** voted for winning Democratic candidates in all 3 elections, especially **young women.** [@Dittmar_2025]
 
 @cr-features-social_media
 
@@ -119,7 +119,9 @@ This is just a snippet of the many ideas espoused by Christian pastor Doug Wilso
 :::{.cr-step .compact-step}
 ## Political Gender Split Over Time
 
-If women were so influential in this past election, and prominent men called to rescind women's right to vote, how do women and men in the United States identify politically? The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. (cite) From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
+If women were so influential in this past election, and prominent men called to rescind women's right to vote, how do women and men in the United States identify politically? 
+
+The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. [@Piccorossi_2021] From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
 :::
 
 @cr-features-age_lines
@@ -163,6 +165,10 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 
 :::{#cr-features-mamdani}
 ![](charts/mamdani_news.png)
+:::
+
+:::{#cr-features-election_results}
+![](charts/elections_results.png)
 :::
 
 :::{#cr-features-young_votes}
@@ -242,7 +248,7 @@ Prominent figures like the Secretary of War declared that women should not have 
 :::
 
 :::{#cr-features-gender_split_2}
-![](charts/gender_split_text.png)
+![@wikimedia2024](charts/election2024.jpg)
 :::
 
 :::
@@ -386,3 +392,5 @@ If enough individuals decided to stay home, instead of booking the flight, findi
 :::
 
 # References
+
+# Appendix?
