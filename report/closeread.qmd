@@ -291,9 +291,10 @@ It would effectively end online and mail-in registration, which are more commonl
 
 :::{.cr-step .compact-step}
 
-The legislation would also increase the burden of voting for as many as **146 million** U.S. citizens without a passport. 
+The legislation would also increase the burden of voting for as many as **47%** of U.S. citizens without a passport. @state2024passportissuance
 
-Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.**
+Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.** @saveactfactsheet
+
 :::
 
 :::{.cr-step .compact-step}
