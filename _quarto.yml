@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _site
+  # This tells Quarto exactly what to render (and what to ignore)
+  render:
+    - "report/closeread.qmd"
+    - "!data/"      # The "!" tells Quarto to ignore this folder
+    - "!archive/"   # Ignore the archive too
+    - "!*_eda/"     # Ignore all the EDA folders
+
+website:
+  title: "Saving Women's Right to Vote"
+  # You can add a navbar here later if you want a multi-page site!
+
+format:
+  html:
+    theme: default
+    css: report/styles.css

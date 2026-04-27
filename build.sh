@@ -1,65 +1,62 @@
-#PULL LATEST GIT UPDATES
-git pull
+#!/bin/bash
 
-# DEFINE PATH
-#dir1=${PWD}
+# --- CONFIGURATION ---
+# Define your GU Domains details here to keep the code clean
+GU_USER="danakimg"
+GU_URL="danakim.georgetown.domains"
+GU_PATH="/home/danakimg/public_html/5200-project"
+SSH_KEY="~/.ssh/id_rsa"
 
-# START FRESH
-rm -rf _site;
+echo "🚀 Starting build process..."
+
+# 1. PULL LATEST UPDATES
+# Ensures you have Emily and Kylie's latest work before you render
+git pull 
+
+# 2. START FRESH
+# Cleaning out old build files prevents "ghost" versions of deleted files
+rm -rf _site
 rm -rf .quarto
+rm -rf report/closeread_files # Cleaning local render folders
 
 # RE-BUILD WEBSITE
-# render all files in instructions, report, and technical-details folders. NOT data folder
+echo "📦 Rendering Quarto project..."
+# We just run 'quarto render' now—the _quarto.yml handles the rest!
 quarto render
 
-# CLEAN UP 
-#remove any junk folders named .DS_Store from the _site folder
-cd _site
-for i in $(find  ./ -name .DS_Store); do rm $i; done; cd ../
+# 4. CLEAN UP 
+# Using -delete is faster than a loop for removing .DS_Store junk
+find _site -name ".DS_Store" -delete
 
-# SET CORRECT PERMISSIONS FOR ALL FILES 
-for i in $(find _site -type f); do chmod 644 $i; done
-for i in $(find _site -type d); do chmod 755 $i; done
+# 5. SET PERMISSIONS
+# This ensures the GU Domains server can actually read and display your files
+echo "🔐 Setting file permissions..."
+find _site -type f -exec chmod 644 {} +
+find _site -type d -exec chmod 755 {} +
 
-
-# GITHUB SYNC
+# 6. GITHUB SYNC
 printf 'Would you like to push to GITHUB? (y/n)? '
-read answer
-if [ "$answer" != "${answer#[Yy]}" ] ;then 
-
-    git config http.postBuffer 20242880000
-
-    # PULL CLOUD REPO TO LOCAL
-    git pull 
-
-    # SYNC TO LOCAL REPO TO CLOUD 
-    read -p 'ENTER MESSAGE: ' message
-    echo "commit message = "$message; 
-    git add ./; 
-    # MAIN BRANCH
-    git commit -m "$message"; 
-
-    # PUSH NON-MAIN BRANCH
-    #git push  -u origin w05-draft
-
-    # PUSH MAIN BRANCH
-    git push
-
+read -r answer
+if [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+    read -p 'ENTER COMMIT MESSAGE: ' message
+    git add .
+    git commit -m "$message"
+    git push origin main
+    echo "✅ Pushed to GitHub!"
 else
-    echo NOT PUSHING TO GTIHUB!
+    echo "⏩ Skipping GitHub push."
 fi
 
-
-
-
-
-
-
-# PUSH WEBSITE TO GU DOMAINS 
+# 7. PUSH TO GU DOMAINS
 printf 'Would you like to push to GU domains? (y/n)? '
-read answer
-if [ "$answer" != "${answer#[Yy]}" ] ;then 
-    rsync -alvr -delete -e ssh -i ~/.ssh/id_rsa _site/ danakimg@danakim.georgetown.domains:/home/danakimg/public_html/5000-project
+read -r answer
+if [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+    echo "🌐 Syncing with GU Domains..."
+    # --delete ensures that files you deleted locally are also deleted on the server
+    rsync -alvr --delete -e "ssh -i $SSH_KEY" _site/ "$GU_USER@$GU_URL:$GU_PATH"
+    echo "✅ Website is live at: https://$GU_URL/5200-project"
 else
-    echo NOT PUSHING TO GU DOMAINS!
+    echo "⏩ Skipping GU Domains push."
 fi
+
+echo "🎉 All done!"
