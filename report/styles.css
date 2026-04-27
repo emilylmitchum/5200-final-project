@@ -32,11 +32,6 @@
   display: block;
 }
 
-/* Set Quarto document background color same as closeread background */
-body {
-  background-color: #f7f6f5; 
-}
-
 #title-block-header {
   height: 100vh;             /* Forces the block to take up the full screen height */
   display: flex;             /* Turns on flexbox layout */
@@ -87,8 +82,16 @@ h1.title {
 }
 
 
-/* Change the overall font*/
+/* Change the overall font and Set Quarto document background color same as closeread background */
 body {
+  background-color: #f7f6f5; 
   font-family: "Arial", sans-serif;
   font-size: 30px;
+}
+
+/* Globally center all iframes */
+iframe {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
