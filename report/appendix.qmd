@@ -3,23 +3,22 @@ Details of our methods and challenges for reproducibility and transparency.
 
 ## Data Collection
 
-### NPORS
-Downloaded from Pew Research Center website (add more detail)
+### NORC
+The University of Chicago's National Opinion Research Center (NORC) cast the AP VoteCast nationwide exit poll survey after the 2024 election season. This dataset was hosted online by the Roper Center for Public Opinion Research. Multiple data formats are available, and a codebook is available. 
 
-Example: for 2025, downloaded at this link:
+This dataset is available at:
+* https://ropercenter.cornell.edu/ipoll/study/31122410
+
+
+### NPORS
+The National Public Opinion Reference Survey (NPORS) is an annual survey of adults in the United States, distributed by Pew Research. It was first hosted in 2020, and data is available for each year 2020-2025. Each year contains either a CSV or SAV file, along with a reference for the questions asked each year.
+
+The 2025 version of this dataset is available at:
 * https://www.pewresearch.org/methods/dataset/2025-national-public-opinion-reference-survey-npors/
 
+All datasets and supporting documentation can be found at:
+* https://www.pewresearch.org/methods/fact-sheet/national-public-opinion-reference-survey-npors/
 
-### NORC
-Downloaded from Ropers (add more detail)
-
-Example: downloaded at Roper iPoll (describe what this source is, where the data came from)
-
-The 2024 AP VoteCast survey, from NORC, University of Chicago, was formatted as a CSV with string values for survey responses. To better join with other data, the P_STATE variable was separated into a state name and state abbreviation variable. For example, 'Washington (WA)' became 'Washington' and 'WA'.
-
-For voting-related analysis, responses from 'nonvoters' were removed. For age-related analysis, 'refused 'responses were removed.
-
-Some of the response entries were formatted with descriptive text and numeric encodings. For example, respondents were asked who they voted for in the 2024 election, and recorded responses included '(8639) Donald Trump' and '(64984) Kamala Harris'. These types of responses were cleaned to their descriptive text, such as 'Donald Trump' or 'Kamala Harris.'
 
 
 ### SAVE Act
@@ -31,7 +30,12 @@ Pew Research Center
 ## Data Cleaning
 
 ### NORC
-Insert Kylie's cleaning steps
+
+The 2024 AP VoteCast survey, from NORC, University of Chicago, was formatted as a CSV with string values for survey responses. To better join with other data, the P_STATE variable was separated into a state name and state abbreviation variable. For example, 'Washington (WA)' became 'Washington' and 'WA'.
+
+For voting-related analysis, responses from 'nonvoters' were removed. For age-related analysis, 'refused 'responses were removed.
+
+Some of the response entries were formatted with descriptive text and numeric encodings. For example, respondents were asked who they voted for in the 2024 election, and recorded responses included '(8639) Donald Trump' and '(64984) Kamala Harris'. These types of responses were cleaned to their descriptive text, such as 'Donald Trump' or 'Kamala Harris.'
 
 ### NPORS
 The 2025 NPORS dataset was formatted as a CSV with numeric values that correspond with survey responses. For example, 1 = Yes, 2 = No. A 2025 codebook is available on the NPORS website, which was joined to the CSV to link string responses to the numeric codes. 
@@ -42,11 +46,8 @@ Each year contained several incomplete or irrelevant columns for this research w
 
 All missing values after that point were filled with the corresponding "blank" or "refused" response from that years survey. These responses were "Refused/Web blank" (2025), "Refused/ Web blank" (2024), and "Refused" (2020-2023).
 
+Challenges encountered in these datasets include a lack of uniformity for variable names, lack of official codebooks before 2025, and nonstsandard responses between years (ie. multiple different ways to say "Refused"). These challenges made it difficult to clean and merge theses datasets in an automated process.
 
-Dropped X columns per year
-Transformed X columns per year
-
-Challenges of NPORS data cleaning: lack of uniformity across years in their variables or at least their variable names
 
 ### SAVE Act 
 Directly copied from CAP estimates
