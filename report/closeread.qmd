@@ -245,7 +245,7 @@ Prominent figures like the Secretary of War declared that women should not have 
 :::
 
 :::{#cr-features-gender_split_2}
-![@wikimedia2024](charts/election2024.jpg){width="70%"}
+![[@wikimedia2024]](charts/election2024.jpg){width="50%"}
 :::
 
 :::
