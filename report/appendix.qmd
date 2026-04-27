@@ -21,11 +21,15 @@ All datasets and supporting documentation can be found at:
 
 
 
-### SAVE Act
-CAP (a PDF file)
-Pew Research Center
+### The Center for American Progress’s Estimates of Women with Birth Certificate Name Mismatches
 
+The Center for American Progress (CAP)’s estimates of women with birth certificate name mismatches were available in a PDF table on the organization’s website. This table was transformed into an Excel file for data manipulation. The original table can be found here: https://www.americanprogress.org/wp-content/uploads/sites/2/2025/01/SAVEact-tables.pdf.
 
+### U.S. Census Bureau Estimates of State-Level 15 and Older Female Population Size
+
+To identify the estimated percentage of women at risk in each state, we retrieved U.S. Census Bureau estimates of each state’s total 15 and older female population size. 
+
+The original Census dataset can be found at: https://data.census.gov/table/ACSDT1Y2024.B01001?q=B01001&g=010XX00US$0400000.
 
 ## Data Cleaning
 
@@ -48,6 +52,19 @@ All missing values after that point were filled with the corresponding "blank" o
 
 Challenges encountered in these datasets include a lack of uniformity for variable names, lack of official codebooks before 2025, and nonstsandard responses between years (ie. multiple different ways to say "Refused"). These challenges made it difficult to clean and merge theses datasets in an automated process.
 
+### The Center for American Progress’s Estimates of Women with Birth Certificate Name Mismatches
 
-### SAVE Act 
-Directly copied from CAP estimates
+The CAP’s estimates were generated under the assumption that approximately 85% of women in opposite-sex relationships choose to take their husband’s last name, based on results from a Pew Research Study (Luona, 2024). These estimates were normalized to percentages using Census estimates of each state’s 15 and older female population size.
+
+### U.S. Census Bureau Estimates of State-Level 15 and Older Female Population Size
+
+The Census data was cleaned, filtered to female estimates, and converted from wide to long format, enabling state-level analysis. 
+
+## Data Curation
+
+### NORC
+To prepare for joining with the Census and CAP datasets, the NORC data was aggregated at the state level. Boolean flag columns were created to facilitate comparisons in scatterplots along the x or y axes. For example, to analyze income, a flag was generated for the women in each state who indicated in the NORC survey that they live in a rural area.
+
+The CAP state-level data was then joined with the Census data and the NORC data to provide a comprehensive overview of state-aggregated survey responses, estimated women with birth certificate name mismatches, and female population estimates. We generated various scatter plots to examine state-level characteristics associated with higher estimated levels of birth-certificate matches, including rurality, Republican identity, income, education, christian identity, and age. Rurality and Republican identity showed the strongest visual patterns, which led us to include them in the final product. This state-aggregated data was also used in the Massachusetts-West-Virginia comparison visualization.
+
+Throughout the process of generating and analyzing scatterplots, Delaware was identified as an outlier, with approximately 96.25% of women estimated to have birth certificate name mismatches. This percentage was calculated correctly from the available inputs. However, all other states fell within the range of 42.85% to 58.58%. Delaware’s value appears implausible and likely reflects an error in either the CAP birth certificate name-mismatch estimate or the Census female population estimate. For this reason, Delaware was excluded from the final visuals.
