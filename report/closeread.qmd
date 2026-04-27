@@ -314,7 +314,7 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 :::
 
 :::{#cr-features-save_act_rally}
-![](charts/save_act_rally_1.jpg){width="70%"}
+![@wikimedia2026](charts/save_act_rally_1.jpg){width="70%"}
 :::
 
 
