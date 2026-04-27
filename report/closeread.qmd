@@ -293,7 +293,7 @@ REAL IDs would ***not*** suffice as citizenship proof for the vast majority of A
 :::{.cr-step .compact-step}
 This requirement would create an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
 
-A Pew Research study @pew2024 found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
+A Pew Research study @pew2023 found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
 :::
 
 
