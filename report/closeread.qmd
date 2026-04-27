@@ -30,13 +30,13 @@ Have you ever heard of the “swinging pendulum” in politics?
 
 It refers to the cyclical power shift between opposing political ideologies. It’s particularly common in two-party political systems (like the one we have in the U.S.).
 
-This is more than just an anecdotal observation. In 1995, political scientist Christopher Wliezein found something he called the thermostatic model of public opinion. 
+This is more than just an anecdotal observation. In 1995, political scientist Christopher Wlezein found something he called the thermostatic model of public opinion. 
 
 @cr-two_party
 
-Wliezein found that the public acts as a thermostat, adjusting its political demands in response to government action. When policies become too liberal, public opinion moves to the right; if they become too conservative, the public moves left. 
+Wlezein found that the public acts as a thermostat, adjusting its political demands in response to government action. When policies become too liberal, public opinion moves to the right; if they become too conservative, the public moves left [@wlezien1995].
 
-Through this mechanism, the public provides necessary feedback for democratic accountability. 
+Through this mechanism, the public provides necessary feedback for democratic accountability [@wlezien1995]. 
 
 @cr-white_house
 
@@ -97,7 +97,7 @@ In response to these local elections, there was a lot of backlash on social medi
 
 A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just one day after the November 4th elections. 
 
-As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.[@partridge2025]
+As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.
 
 @cr-repeal-19th-4
 
@@ -109,9 +109,9 @@ He justifies this change by implying that social progressivism has been the resu
 
 @cr-repeal-19th-3
 
-A few months earlier in August 2025, Pete Hegseth, who at the time was the U.S. Secretary of Defense, reposted a separate but ideologically similar video on X. This video, a segment from CNN, featured several Christian pastors who advocated for the repeal of the 19th amendment in favor of a household vote.[@hegseth2025]
+A few months earlier in August 2025, Pete Hegseth, who at the time was the U.S. Secretary of Defense, reposted a separate but ideologically similar video on X. This video, a segment from CNN, featured several Christian pastors who advocated for the repeal of the 19th amendment in favor of a household vote [@hegseth2025].
 
-This is just a snippet of the many ideas espoused by Christian pastor Doug Wilson and his community who are strongly advocating for a more patriarchal society. Importantly, as noted by the CNN segment, one of Doug Wilson’s contacts is Pete Hegseth himself, “his highest level connection to the [Trump] administration”.[@hegseth2025]
+This is just a snippet of the many ideas espoused by Christian pastor Doug Wilson and his community who are strongly advocating for a more patriarchal society. Importantly, as noted by the CNN segment, one of Doug Wilson’s contacts is Pete Hegseth himself, “his highest level connection to the [Trump] administration” [@hegseth2025].
 
 
 @cr-features-gender_split
@@ -121,7 +121,7 @@ This is just a snippet of the many ideas espoused by Christian pastor Doug Wilso
 
 If women were so influential in this past election, and prominent men called to rescind women's right to vote, how do women and men in the United States identify politically? 
 
-The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. [@Piccorossi_2021] From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
+The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. [@pew2025npors] From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
 :::
 
 @cr-features-age_lines
@@ -186,11 +186,11 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 :::
 
 :::{#cr-features-age_lines}
-![](charts/allage_line.png)
+![Data source: @pew2025npors](charts/allage_line.png)
 :::
 
 :::{#cr-features-youth_lines}
-![](charts/1829_line.png)
+![Data source: @pew2025npors](charts/1829_line.png)
 :::
 
 :::{#cr-repeal-19th-1}
@@ -198,23 +198,23 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 :::
 
 :::{#cr-repeal-19th-2}
-![](charts/repeal-19th-2.png)
+![Source: @rpsagainsttrump2025](charts/repeal-19th-2.png)
 :::
 
 :::{#cr-repeal-19th-3}
-![](charts/repeal-19th-3.png){width="70%"}
+![Source: @hegseth2025](charts/repeal-19th-3.png){width="70%"}
 :::
 
 :::{#cr-repeal-19th-4}
-![](charts/repeal-19th-4.png){width="60%"}
+![Source: @partridge2025](charts/repeal-19th-4.png){width="60%"}
 :::
 
 :::{#cr-two_party}
-![](charts/two_party.jpg){width="60%"}
+![Source: @rodriguez2010](charts/two_party.jpg){width="60%"}
 :::
 
 :::{#cr-white_house}
-![](charts/white_house.jpg){width="80%"}
+![Source: @cambiaso2014](charts/white_house.jpg){width="80%"}
 :::
 
 :::
@@ -226,7 +226,11 @@ Let’s zoom in on the survey responses from the most recent year, in 2025.
 
 When examining what issues were important to respondents, there was a clear gender split in which issues mattered to who. To explore this, we will click on one of the issues and then select a slice of the pie that pops up.
 
-<iframe src="charts/issues_dashboard.html" style="width: 85%; height: 830px; border: none;"></iframe>
+::: {#fig-issues-dashboard}
+<iframe src="charts/issues_dashboard.html" style="width: 100%; height: 850px; border: none;"></iframe>
+
+Source: @pew2025npors
+:::
 
 Let’s take a look at how men vs. women responded to the question about how safe they felt from crime. Most of the people who said they felt extremely safe were men, and most of the people who said they did not feel safe at all were women. 
 
@@ -254,7 +258,12 @@ This map shows the AP VoteCast exit poll responses to the 2024 election. This su
 
 To see what the 2024 election would have looked like if women did not vote, toggle the map from "Total" to "Male," and check out the "Female" tab to see how women voted in each state.
 
+::: {#fig-issues-dashboard}
 <iframe src="charts/map_dash.html" style="width: 85%; height: 600px; border: none;"></iframe>
+
+Source: @apnorc2025votecast
+:::
+
 
 When considering the total survey responses, a roughly even number of states are colored blue (majority Harris) and red (majority Trump). However, considering only male survey responses shows most of the states turn red. By contrast, considering only female survey responses, most states turn blue. This shows that, in most states, there is a divide between how men and women voted, and while Donald Trump won the 2024 election regardless, the margin would have been much larger if women did not vote.
 
