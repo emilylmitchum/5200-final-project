@@ -389,9 +389,11 @@ Massachusetts and West Virginia also have notably different state profiles acros
 
 # Conclusion
 
-The social media backlash experienced by young female voters and calls to repeal the 19th Amendment provide a small window into the ideal world of far-right extremist men, where women have no political say. 
+Recent social media backlash toward young female voters and renewed calls to repeal the 19th Amendment offer a glimpse into a political climate in which women’s voices are increasingly challenged and devalued.
 
-The SAVE Act and similar, state-level voter registration laws show a more realistic view of women’s voter suppression, where fewer women are able to vote, and some may choose not to due to prohibitive barriers. 
+The SAVE Act and similar state-level voter registration laws show a more realistic view of voter suppression, not through formal removal of voting rights, but by creating barriers that make voting more time-intensive, more expensive, and less accessible for many women.
+
+Our analysis shows that women living in rural areas, without passports, and whose legal names no longer match their birth certificates would face the greatest barriers to voter registration.
 
 If you were required to fly to update your voter registration, would you choose to?
 
@@ -399,8 +401,7 @@ If your legal name didn’t match your birth certificate, would you be able to p
 
 If you needed to buy or renew a passport to register to vote, would you be able to?
 
-If enough individuals decided to stay home, instead of booking the flight, finding the marriage certificate, or getting the passport, what would our country look like?
-
+If enough people decided that the cost, time, or effort were simply too high, what would our democracy look like?
 
 :::{#cr-features-infographic}
 ![](charts/infographic.png)
