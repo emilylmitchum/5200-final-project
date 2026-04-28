@@ -351,7 +351,7 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 
 ## Analysis of State-Level Impacts
 
-To explore which women would be most impacted by the SAVE Act, we aligned the Center for American Progress's estimates of female citizens whose names may not match their birth certificates with state survey results from the AP VoteCast 2024 General Election survey [@apnorc2025votecast] and female population data from the @census2024sexbyage.
+To explore which women would be most impacted by the SAVE Act, we aligned the Center for American Progress's estimates of female citizens whose names may not match their birth certificates with state survey results from the AP VoteCast 2024 General Election survey [@apnorc2025votecast] and female population data from the U.S. Census Bureau [@estimated2024acs].
 
 The following state-level scatterplots show relationships between estimated birth-certificate name mismatch risk, rurality, and party identification.
 
