@@ -291,7 +291,7 @@ So far, we've discussed the hypothetical impacts of suppressing women's right to
 The absence of women's perspectives in politics is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
 :::
 
-@cr-features-save_act_rally
+@cr-passport
 
 :::{.cr-step .compact-step}
 The SAVE Act would require voters to provide proof of citizenship in person upon voter registration through a valid **passport** or **birth certificate.**
@@ -299,11 +299,13 @@ The SAVE Act would require voters to provide proof of citizenship in person upon
 REAL IDs would ***not*** suffice as citizenship proof for the vast majority of Americans, since they demonstrate legal residence and are available to non-citizens.
 :::
 
+@cr-marriage-certificate
 
 This requirement would create an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
 
 A Pew Research study @pew2023 found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
 
+@cr-election-mail
 
 :::{.cr-step .compact-step}
 ## Additional Barrier to Vote for Rural Individuals
@@ -314,15 +316,14 @@ It would effectively end online and mail-in registration, which are more commonl
 :::
 
 :::{.cr-step .compact-step}
-
 The legislation would also increase the burden of voting for as many as **47%** of U.S. citizens without a passport. @state2024passportissuance
 
 Research from the Center for American Progress shows that passport ownership is concentrated in blue states and among **highly-educated individuals, individuals with higher incomes, and younger individuals.** @saveactfactsheet
-
 :::
 
-:::{.cr-step .compact-step}
+@cr-features-save_act_rally
 
+:::{.cr-step .compact-step}
 Together, these data points indicate that if passed, the SAVE Act could disproportionately impact women living in rural areas, conservative women, and low-income, older women with less education.
 :::
 
@@ -334,11 +335,23 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 ![@wikimedia2026](charts/save_act_rally_1.jpg){width="70%"}
 :::
 
+:::{#cr-passport}
+![@passport](charts/passport.jpg){width="70%"}
+:::
+
+:::{#cr-marriage-certificate}
+![@marriage-certificate](charts/marriage-certificate.jpg){width="40%"}
+:::
+
+:::{#cr-election-mail}
+![@election-mail](charts/election-mail.jpg){width="80%"}
+:::
+
 :::
 
 ## Analysis of State-Level Impacts
 
-To explore which women would be most impacted by the SAVE Act, we aligned the Center for American Progress's estimates of female citizens whose names may not match their birth certificates with state survey results from the AP VoteCast 2024 General Election survey [@apnorc2025votecast] and female population data from the U.S. Census Bureau [@census2024sexbyage].
+To explore which women would be most impacted by the SAVE Act, we aligned the Center for American Progress's estimates of female citizens whose names may not match their birth certificates with state survey results from the AP VoteCast 2024 General Election survey [@apnorc2025votecast] and female population data from the @census2024sexbyage.
 
 The following state-level scatterplots show relationships between estimated birth-certificate name mismatch risk, rurality, and party identification.
 
@@ -423,3 +436,78 @@ If enough people decided that the cost, time, or effort were simply too high, wh
 :::
 
 :::
+
+# Appendix
+Details of our methods and challenges for reproducibility and transparency.
+
+## Data Collection by Source
+
+### University of Chicago, National Opinion Research Center
+The University of Chicago's National Opinion Research Center (NORC) cast the AP VoteCast nationwide exit poll survey after the 2024 election season. This dataset was hosted online by the Roper Center for Public Opinion Research. Multiple data formats are available, and a codebook is available. 
+
+- [AP Votecast 2024](https://ropercenter.cornell.edu/ipoll/study/31122410).
+
+### Pew Research Center
+The Pew Research Center has conducted the National Public Opinion Reference Survey (NPORS) for the past 5 years, collecting information on Americans' political and religious affiliations. This annual survey of adults in the United States was first conducted in 2020, with data available for each year between 2020-2025. Each year contains either a CSV or SAV file, along with a reference file containing questions asked per year.
+
+- [NPORS 2025](https://www.pewresearch.org/methods/dataset/2025-national-public-opinion-reference-survey-npors/)
+  - Dataset for 20205 and supporting documentation
+- [NPORS 2020-2025](https://www.pewresearch.org/methods/fact-sheet/national-public-opinion-reference-survey-npors/) 
+  - Dataset for all 5 years and supporting documentation
+
+### Center for American Progress (CAP)
+The Center for American Progress released an estimate of women who would be likely to have birth certificate name mismatches due to last name changes after marraige. This data was available as a table in a PDF on the organization’s website. The data from this table was extracted into an Excel file to prepare them for our visualizaitons. 
+
+- [SAVE Act Tables](https://www.americanprogress.org/wp-content/uploads/sites/2/2025/01/SAVEact-tables.pdf)
+
+### U.S. Census
+U.S. Census Bureau has a wealth of robust data on the American population, which we used to supplement our project. To identify the estimated percentage of women at risk in each state, we retrieved U.S. Census Bureau estimates of each state’s total population of females  15 years of age or older. 
+
+- [American Community Survey](https://data.census.gov/table/ACSDT1Y2024.B01001?q=B01001&g=010XX00US$0400000)
+
+
+## Data Cleaning by Dataset
+
+### AP Votecast 2024
+
+The 2024 AP VoteCast survey, from NORC at the University of Chicago, was formatted as a CSV with string values for survey responses. To better join with other data, the P_STATE variable was separated into a state name and state abbreviation variable. For example, 'Washington (WA)' became 'Washington' and 'WA'.
+
+For voting-related analysis, responses from 'nonvoters' were removed. For age-related analysis, 'refused' responses were removed.
+
+Some of the response entries were formatted with descriptive text and numeric encodings. For example, respondents were asked who they voted for in the 2024 election, and recorded responses included '(8639) Donald Trump' and '(64984) Kamala Harris'. These types of responses were cleaned to their descriptive text, such as 'Donald Trump' or 'Kamala Harris.'
+
+### NPORS 
+The 2025 NPORS dataset was formatted as a CSV with numeric values that correspond with survey responses. For example, 1 = Yes, 2 = No. A 2025 codebook is available on the NPORS website, which was joined to the CSV to link string responses to the numeric codes. 
+
+For 2020-2024, the NPORS datasets were available as SAV files with similar numeric encoding, and there were no available codebooks. The NPORS website has documentation for questions and answers, so codebooks were manually constructed for these years based on that documentation. Those manual codebooks were joined to the SAV files to link string responses to the numeric codes. 
+
+Each year contained several incomplete or irrelevant columns for this research which were dropped. These were mostly the mode of the response, the language of the response at the beginning and end of the survey, the start and end date of the response, and post-survey questions that many respondents did not return to complete. Other incomplete columns were removed from each year on a case by case basis. 
+
+All missing values after that point were filled with the corresponding "blank" or "refused" response from that years survey. These responses were "Refused/Web blank" (2025), "Refused/ Web blank" (2024), and "Refused" (2020-2023).
+
+Challenges encountered in these datasets include a lack of uniformity for variable names, lack of official codebooks before 2025, and nonstsandard responses between years (ie. multiple different ways to say "Refused"). These challenges made it difficult to clean and merge theses datasets in an automated process.
+
+### SAVE Act Tables
+
+The CAP’s estimates were generated under the assumption that approximately 85% of women in opposite-sex relationships choose to take their husband’s last name, based on results from a Pew Research Study [@pew2023]. These estimates were normalized to percentages using Census estimates of each state’s 15 and older female population size.
+
+### American Community Survey
+
+The Census data was cleaned, filtered to female estimates, and converted from wide to long format, enabling state-level analysis. 
+
+## Data Curation
+
+### SAVE Act Tables + ACS + AP Votecast
+To prepare for joining with the Census and SAVE Act tables, the AP Votecast data was aggregated at the state level. Boolean flag columns were created to facilitate comparisons in scatterplots along the x or y axes. For example, to analyze income, a flag was generated for the women in each state who indicated in the AP Votecast survey that they live in a rural area.
+
+The SAVE Act state-level data was then joined with the Census data and the AP Votecast data to provide a comprehensive overview of state-aggregated survey responses, estimated women with birth certificate name mismatches, and female population estimates. We generated various scatter plots to examine state-level characteristics associated with higher estimated levels of birth-certificate name mismatches, including rurality, Republican identity, income, education, christian identity, and age. Rurality and Republican identity showed the strongest visual patterns, which led us to include them in the final product. This state-aggregated data was also used in the Massachusetts-West-Virginia comparison visualization.
+
+Throughout the process of generating and analyzing scatterplots, Delaware was identified as an outlier, with approximately 96.25% of women estimated to have birth certificate name mismatches. This percentage was calculated correctly from the available inputs. However, all other states fell within the range of 42.85% to 58.58%. Delaware’s value appears implausible and likely reflects an error in either the CAP-estimated birth certificate name-mismatch estimate or the Census female population estimate. For this reason, Delaware was excluded from the final visuals.
+
+# AI Usage Log
+- Correcting and refining data visualization syntax
+- Correcting syntax to ensure visually pleasing closeread extension formatting (styles.css)
+- Code documentation implemented in comments
+- Managing GitHub merge conflicts
+- Create and verify citations in Bibtex format
+- .gitignore generated using GitHub python template
