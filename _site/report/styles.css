@@ -95,3 +95,23 @@ iframe {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* Center all image captions */
+figcaption {
+  text-align: center !important;
+  color: #555555;        /* Optional: makes the text a slightly softer grey */
+  margin-top: 10px;      /* Optional: gives a little breathing room below the image */
+}
+
+/* Make the References section text smaller than the body */
+#references, #refs {
+  background-color: #f7f6f5 !important;
+  padding: 2em; /* Gives the text some breathing room */
+  font-size: 0.6em !important; /* Scales the text down to 70% of your 30px body font */
+  line-height: 1.8;            /* Adds comfortable spacing between the lines of text */
+}
+
+/* Optional: Add a little extra space between each individual citation */
+.csl-entry {
+  margin-bottom: 1.8em;
+}

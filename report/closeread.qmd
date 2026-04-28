@@ -49,7 +49,6 @@ In response to the most recent Presidential election, we have seen a continuatio
 :::{.cr-step .compact-step}
 ## Recent Local Elections
 November 4, 2025 was the first major election night since the Presidential election in 2024. For the Democratic Party, this was also the first opportunity to gain control of state and local offices after the Republican win for presidency. 
-
 :::
 
 @cr-features-news_headlines
@@ -78,18 +77,16 @@ All three elections resulted in dramatic Democratic party wins, with Virginia an
 
 @cr-features-young_votes
 
-The majority of **young people** voted for winning Democratic candidates in all 3 elections. [@McHardy_2025]
+The majority of **young people** voted for winning Democratic candidates in all 3 elections [@McHardy_2025].
 
 @cr-features-female_votes
 
-The majority of **women** voted for winning Democratic candidates in all 3 elections, especially **young women.** [@Dittmar_2025]
+The majority of **women** voted for winning Democratic candidates in all 3 elections, especially **young women** [@Dittmar_2025].
 
 @cr-features-social_media
 
-
 :::{.cr-step .compact-step}
 ## Social Media Backlash
-
 In response to these local elections, there was a lot of backlash on social media. Of particular note was the backlash that young women voters seemed to face, given that many of them voted for these Democratic candidates who eventually won these races. 
 :::
 
@@ -97,11 +94,15 @@ In response to these local elections, there was a lot of backlash on social medi
 
 A noteworthy example of this can be found from Dale Partridge’s X account, where he posted a video advocating for the repeal of the 19th amendment, just one day after the November 4th elections. 
 
-As a reminder, the 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.
+@cr-womens_suffrage
 
-@cr-repeal-19th-4
+The 19th amendment essentially gave women the right to vote. After decades of the women’s suffrage movement, the 19th amendment passed, prohibiting elections from denying citizens the right to vote on the basis of sex.
+
+@cr-repeal-19th-5
 
 In the video included in this X post, Dale Partridge calls to restore the household vote in favor of the 19th amendment, whereby women would “share their thoughts with their fathers or husbands and the men in their lives would make the final decisions.”[@partridge2025]
+
+@cr-repeal-19th-4
 
 He justifies this change by implying that social progressivism has been the result of the female vote.
 
@@ -111,6 +112,8 @@ He justifies this change by implying that social progressivism has been the resu
 
 A few months earlier in August 2025, Pete Hegseth, who at the time was the U.S. Secretary of Defense, reposted a separate but ideologically similar video on X. This video, a segment from CNN, featured several Christian pastors who advocated for the repeal of the 19th amendment in favor of a household vote [@hegseth2025].
 
+@cr-repeal-19th-6
+
 This is just a snippet of the many ideas espoused by Christian pastor Doug Wilson and his community who are strongly advocating for a more patriarchal society. Importantly, as noted by the CNN segment, one of Doug Wilson’s contacts is Pete Hegseth himself, “his highest level connection to the [Trump] administration” [@hegseth2025].
 
 
@@ -118,10 +121,9 @@ This is just a snippet of the many ideas espoused by Christian pastor Doug Wilso
 
 :::{.cr-step .compact-step}
 ## Political Gender Split Over Time
-
 If women were so influential in this past election, and prominent men called to rescind women's right to vote, how do women and men in the United States identify politically? 
 
-The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research. [@pew2025npors] From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
+The National Public Opinion Reference Survey is an annual survey of adults in the United States, distributed by Pew Research Center [@pew2025npors]. From 2020 to 2025, survey respondents were asked what political party they identify with. The following chart shows those responses over time. 
 :::
 
 @cr-features-age_lines
@@ -186,11 +188,11 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 :::
 
 :::{#cr-features-age_lines}
-![Data source: @pew2025npors](charts/allage_line.png)
+![Data Source: @pew2025npors](charts/allage_line.png)
 :::
 
 :::{#cr-features-youth_lines}
-![Data source: @pew2025npors](charts/1829_line.png)
+![Data Source: @pew2025npors](charts/1829_line.png)
 :::
 
 :::{#cr-repeal-19th-1}
@@ -209,12 +211,24 @@ The NPORS survey has not been issued long enough to calculate trends over time f
 ![Source: @partridge2025](charts/repeal-19th-4.png){width="60%"}
 :::
 
+:::{#cr-repeal-19th-5}
+![Source: @partridge2025](charts/repeal-19th-5.png){width="60%"}
+:::
+
+:::{#cr-repeal-19th-6}
+![Source: @hegseth2025](charts/repeal-19th-6.png){width="60%"}
+:::
+
 :::{#cr-two_party}
 ![Source: @rodriguez2010](charts/two_party.jpg){width="60%"}
 :::
 
 :::{#cr-white_house}
 ![Source: @cambiaso2014](charts/white_house.jpg){width="80%"}
+:::
+
+:::{#cr-womens_suffrage}
+![Source: @dale1913](charts/womens_suffrage.jpg){width="80%"}
 :::
 
 :::
@@ -249,7 +263,7 @@ Prominent figures like the Secretary of War declared that women should not have 
 :::
 
 :::{#cr-features-gender_split_2}
-![[@wikimedia2024]](charts/election2024.jpg){width="50%"}
+![[@wikimedia2024]](charts/election2024.jpg){width="80%"}
 :::
 
 :::
@@ -264,7 +278,6 @@ To see what the 2024 election would have looked like if women did not vote, togg
 Source: @apnorc2025votecast
 :::
 
-
 When considering the total survey responses, a roughly even number of states are colored blue (majority Harris) and red (majority Trump). However, considering only male survey responses shows most of the states turn red. By contrast, considering only female survey responses, most states turn blue. This shows that, in most states, there is a divide between how men and women voted, and while Donald Trump won the 2024 election regardless, the margin would have been much larger if women did not vote.
 
 :::{.cr-section}
@@ -274,11 +287,8 @@ When considering the total survey responses, a roughly even number of states are
 So far, we've discussed the hypothetical impacts of suppressing women's right to vote. While a complete repeal of the 19th amendment is unlikely, there are real legislative efforts to suppress women and other groups from exercising their right to vote.
 
 :::{.cr-step .compact-step}
-
-# The Safeguard American Voter Eligibility Act (SAVE) Act
-
+## The Safeguard American Voter Eligibility Act (SAVE) Act
 The absence of women's perspectives in politics is no longer a radical provocation, but a true threat, demonstrated by the Safeguard American Voter Eligibility (SAVE) Act.
-
 :::
 
 @cr-features-save_act_rally
@@ -290,11 +300,9 @@ REAL IDs would ***not*** suffice as citizenship proof for the vast majority of A
 :::
 
 
-:::{.cr-step .compact-step}
 This requirement would create an additional barrier to voting for many women, who are far more likely to take their spouse’s name, increasing the risk that their birth certificate does not match their legal name. 
 
 A Pew Research study @pew2023 found that women in opposite-sex marriages are far more likely than men to take their spouse’s last name, though younger, Democratic and highly-educated women are less likely to do so. For women with birth certificates that do not match their current legal names, registering to vote would necessitate additional documentation, such as a marriage certificate.
-:::
 
 
 :::{.cr-step .compact-step}
@@ -326,7 +334,6 @@ Together, these data points indicate that if passed, the SAVE Act could dispropo
 ![@wikimedia2026](charts/save_act_rally_1.jpg){width="70%"}
 :::
 
-
 :::
 
 ## Analysis of State-Level Impacts
@@ -335,22 +342,27 @@ To explore which women would be most impacted by the SAVE Act, we aligned the Ce
 
 The following state-level scatterplots show relationships between estimated birth-certificate name mismatch risk, rurality, and party identification.
 
-::: {.full-width-chart}
-<iframe 
-  src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html"
-  style="width:100%; max-width:900px;">
+::: {#fig-rurality}
+<iframe src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Living_in_Rural_Areas.html" 
+style="width: 830px; height: 620px; border: none;">
 </iframe>
+
+Source: @apnorc2025votecast
 :::
+
+
 
 We can see a clear state-level association between rurality and birth-certificate mismatches. Higher estimated shares of women with birth-certificate name mismatches coincide with higher shares of women living in rural areas. 
 
 This is particularly concerning, since, as we've already discussed, the SAVE Act's in-person requirement would disproportionately impact women living in rural areas.
 
-::: {.full-width-chart}
+::: {#fig-republican}
 <iframe 
-  src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html" 
-  style="width:100%; max-width:900px;">
+src="charts/Percent_of_Women_At_Risk_vs_Percent_of_Women_Who_Identify_as_Republican.html" 
+style="width: 830px; height: 620px; border: none;">
 </iframe>
+
+Source: @saveactfactsheet
 :::
 
 While the visual pattern is less pronounced, we also observe an association between Republican party identity and birth-certificate mismatches. At the state level, estimated shares of women who identify as Republican coincide with higher shares of women who are estimated to have birth-certificate name mismatches.
@@ -359,15 +371,18 @@ The bill's potential impact on Republican women is important to highlight, as it
 
 These scatterplots do not show strong correlations and should be interpreted with caution, as they are based on estimated data. However, they do show that areas with high estimated shares of women at risk of voter suppression are also some of the most rural and conservative states.
 
-## Massachusetts vs. West Virginia Comparison
+### Massachusetts vs. West Virginia Comparison
 
 To analyze the characteristics of women likely to be impacted by the SAVE Act in detail, we compare the profiles of two states with contrasting shares of women at risk of having birth-certificate name mismatches: Massachusetts and West Virginia.
 
-::: {.full-width-chart}
+
+::: {#fig-massachussetes-westVA}
 <iframe 
   src="charts/Massachusetts_vs_West_Virginia.html"
-  style="width:100%; max-width:900px;">
-</iframe> 
+  style="width: 830px; height: 620px; border: none;">
+</iframe>
+
+Source: @saveactfactsheet
 :::
 
 :::{.cr-section}
@@ -378,7 +393,7 @@ These two states were chosen for comparison because they have very different est
 Massachusetts and West Virginia also have notably different state profiles across rurality, party identity, income, and educational attainment. West Virginia has a much higher share of women who identify as Republican, who live in rural areas, who have lower incomes, and who have lower educational attainment. These characteristics are all associated with a higher risk of voter suppression from the SAVE Act.
 
 :::{#cr-features-ma_wv_comparison}
-![](charts/ma_wv_comparison_clean.png)
+![@saveactfactsheet](charts/ma_wv_comparison_clean.png)
 :::
 
 ::: 
@@ -387,7 +402,7 @@ Massachusetts and West Virginia also have notably different state profiles acros
 
 @cr-features-infographic
 
-# Conclusion
+## Conclusion
 
 Recent social media backlash toward young female voters and renewed calls to repeal the 19th Amendment offer a glimpse into a political climate in which women’s voices are increasingly challenged and devalued.
 
