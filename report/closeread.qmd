@@ -273,7 +273,7 @@ This map shows the AP VoteCast exit poll responses to the 2024 election. This su
 To see what the 2024 election would have looked like if women did not vote, toggle the map from "Total" to "Male," and check out the "Female" tab to see how women voted in each state.
 
 ::: {#fig-issues-dashboard}
-<iframe src="charts/map_dash.html" style="width: 110%; height: 900px; border: none;"></iframe>
+<iframe src="charts/map_dash.html" style="width: 110%; height: 890px; border: none;"></iframe>
 
 Source: @apnorc2025votecast
 :::
