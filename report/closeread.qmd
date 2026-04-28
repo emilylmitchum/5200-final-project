@@ -432,7 +432,7 @@ If you needed to buy or renew a passport to register to vote, would you be able 
 If enough people decided that the cost, time, or effort were simply too high, what would our democracy look like?
 
 :::{#cr-features-infographic}
-![](charts/infographic.png)
+![](charts/infographic.png){width="70%"}
 :::
 
 :::
